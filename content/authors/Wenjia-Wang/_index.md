@@ -11,14 +11,14 @@ names:
 - Wenjia Wang
 
 # This decides the order of people, 
-# set it as your start year (e.g., 2023) 
-weight: 2023
+# set it as your start year&month (e.g., 202301) 
+weight: 202301
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD, since 2023. 
+role: PhD, since Jan. 2023. 
 
 university: HKU
 
@@ -26,33 +26,33 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-personal_homepage: https://zycliao.com
+# personal_homepage: https://wenjiawang0312.github.io/
 
 projects:
 
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
-  url: ""
+  # url: ""
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Neural Cloth Simulation
-- Character Animation
+- 3D Human Reconstruction
+- Human Pose Generation
 
 education:
   courses:
   - course: PhD in Computer Science
     institution: University of Hong Kong
     year: 2026 (expected)
-  - course: MSc in Computer Science
-    institution: Saarland University
-    year: 2022
-  - course: BSc in Information Security
-    institution: Shanghai Jiao Tong University
-    year: 2020
+  - course: MSc in Mechanical Engineering
+    institution: Tongji University
+    year: 2019
+  - course: BSc in Aircraft Designing
+    institution: Nanjing University of Aeronautics and Astronautics
+    year: 2016
 
 
 # Social/Academic Networking
@@ -68,10 +68,10 @@ social:
 #   link: https://twitter.com/GeorgeCushen
 - icon: user-graduate
   icon_pack: fas
-  link: https://zycliao.com
+  link: https://wenjiawang0312.github.io/
 - icon: github
   icon_pack: fab
-  link: https://github.com/zycliao
+  link: https://github.com/WenjiaWang0312
 # - icon: orcid
 #   icon_pack: fab
 #   link: https://orcid.org/0000-0002-1450-5638
@@ -86,7 +86,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "zycliao@cs.hku.hk"
+email: "wwj2022@connect.hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -99,5 +99,5 @@ display_groups:
 
 ---
 
-# write your biography here
-Zhouyingcheng Liao is a stupid PhD student.
+<!-- # write your biography here -->
+[Personal Page of Wenjia Wang](https://wenjiawang0312.github.io/)

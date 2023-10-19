@@ -11,14 +11,14 @@ names:
 - Zhouyingcheng Liao
 
 # This decides the order of people, 
-# set it as your start year (e.g., 2023) 
-weight: 2023
+# set it as your start year&month (e.g., 202301) 
+weight: 202301
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD, since 2023. 
+role: PhD, since Jan. 2023. 
 
 university: HKU
 
@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-personal_homepage: https://zycliao.com
+# personal_homepage: https://zycliao.com
 
 projects:
 
@@ -99,5 +99,6 @@ display_groups:
 
 ---
 
-# write your biography here
-Zhouyingcheng Liao is a stupid PhD student.
+<!-- # write your biography here
+Zhouyingcheng Liao is a stupid PhD student. -->
+https://zycliao.com
