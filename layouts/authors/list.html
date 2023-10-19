@@ -1,0 +1,134 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{/* If an account has not been created for this user, just display their name as the title. */}}
+
+{{/* This list is a list of author 'stubs' which should re-direct */}}
+{{$redirectsFrom := slice "Jeanet Mante" "Chris J. Myers" "Chris J Myers"}}
+{{.Scratch.Set "research_area" "False"}}
+{{ if .Params.research_area }}
+  {{.Scratch.Set "research_area" "True"}}
+{{end}}
+
+
+{{ if not .File }}
+  {{ if in $redirectsFrom .Title}}
+
+    {{/* For each set of aliases a new if statement is needed. */}}
+    {{/*Copy the line and replace the first list of aliases to redirect from and the second (e.g. jet-mante) with the page to redirect to*/}}
+    {{if in (slice "Chris J. Myers" "Chris J Myers") .Title}} {{.Scratch.Set "newAuthor" "chris-myers"}} {{end}}
+    {{if in (slice "Jeanet Mante") .Title}} {{.Scratch.Set "newAuthor" "jet-mante"}} {{end}}
+
+    {{$newAuthor := .Scratch.Get "newAuthor"}}
+    <head>
+      <title>/author/{{$newAuthor}}/</title>
+      <link rel="canonical" href="/author/{{$newAuthor}}/"/>
+      <meta name="robots" content="noindex">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+      <meta http-equiv="refresh" content="0; url=/author/{{$newAuthor}}/"/>
+    </head>
+  {{end}}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{/* Show the About widget if an account exists for this user. */}}
+    {{ if .File }}
+      {{ $widget := "widgets/about.html" }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $params := dict "root" $ "page" . "author" $username }}
+      {{ partial $widget $params }}
+    {{end}}
+
+    {{ if .File }}
+      {{ $display_groups := .Params.display_groups}}
+      {{ $widget := "widgets/people_inpage.html" }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ if intersect .Params.user_groups (slice "Alumni" "Researchers")}}
+        {{ $subtitle := "Contributed To"}}
+        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+        {{ partial $widget $params }}
+      {{ else}}
+        {{ $subtitle := "Tools"}}
+        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+        {{ partial $widget $params }}
+
+        {{ $subtitle := "Contributors"}}
+        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+        {{ partial $widget $params }}
+      {{ end  }}
+    {{end}}
+
+
+    {{/* If _index.md exists for the author look through all site pages */}}
+    {{/* and display the articles that have an author equal to any of the names */}}
+    {{/* listed in the _index.md page */}}
+    {{ if .File }}
+      {{ $query := where .Site.Pages ".IsNode" false }}
+      {{ $count := len $query }}
+      {{ $list := .Params.names}}
+      {{ $research_tags := .Params.research_area_tags}}
+
+      {{ if $count }}
+      <div class="article-widget content-widget-hr">
+        <h3>Publications</h3>
+        {{$research_area := .Scratch.Get "research_area"}}
+        <!-- If a research area then get latest publications based on tags -->
+        {{if in (slice "True") $research_area}}
+          <!-- Untoggle the three lines of code below to see all possible tags to work with -->
+          <!-- {{ range site.Taxonomies.tags }}
+          <li><a href="{{.Page.RelPermalink}}">{{.Page.Title}}</a></li>
+          {{ end }} -->
+          {{ range $query }}
+            {{$intersects := intersect $research_tags .Params.tags}}
+            {{$intersect_count := len $intersects}}
+            {{ if $intersect_count}}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end}}
+          {{ end }}
+        <!-- Otherwise use author publications -->
+        {{else}}
+        <ul>
+          {{ range $query }}
+            {{$intersects := intersect $list .Params.authors}}
+            {{ if $intersects}}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end}}
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    {{end}}
+    {{end}}
+
+    {{/* If no _index.md file exists for the author */}}
+    {{/* list papers that have the same exact author listed */}}
+    {{ if not .File }}
+        {{ $query := where .Pages ".IsNode" false }}
+        {{ $count := len $query }}
+
+        {{ if $count }}
+        <div class="article-widget content-widget-hr">
+          <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+          <ul>
+            {{ range $query }}
+                <li>
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+          {{end}}
+          </ul>
+        </div>
+    {{end}}
+  </div>
+</section>
+
+{{- end -}}
