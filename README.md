@@ -1,16 +1,13 @@
 # Best-practices documentation for modifying the website
 
-## Website editting
+## Run the website locally
 
 * Follow instructions on [this page](https://university.wowchemy.com/getting-started/install-hugo/) to install Go and Hugo
 * cd into a directory you want to have the file in
-* git clone https://github.com/MyersResearchGroup/myersresearchgroup.github.io.git
-* cd into the myersresearchgroup folder
-* hugo server
+* git clone https://github.com/HKU-CG/HKU-CG.github.io
+* cd into the HKU-CG.github.io folder
+* run `hugo server`
 * Check it is up and running at localhost:1313
-* Install the text editor of your choice
-* Create branch for the repository and open the branch in vs code
-* Page about website structure: https://wowchemy.com/docs/get-started/
 
 ## How to add your own profile
 * Go to `content/authors`
