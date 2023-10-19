@@ -18,7 +18,7 @@ weight: 202209
 superuser: false
 
 # Role/position
-role: M.Phil, since Sep. 2022. 
+role: M.Phil., since Sep. 2022. 
 
 university: HKU
 
@@ -43,10 +43,10 @@ interests:
 
 education:
   courses:
-  - course: M.Phil in Computer Science
+  - course: M.Phil. in Computer Science
     institution: University of Hong Kong
     year: Present
-  - course: B.Eng in Computer Science and Technology
+  - course: B.Eng. in Computer Science and Technology
     institution: University of Science and Technology of China
     year: 2022
 
