@@ -60,10 +60,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:zycliao@cs.hku.hk
+  link: mailto:qindfei@connect.hku.hk
 - icon: user-graduate
   icon_pack: fas
-  link: https://zycliao.com
+  link: dafei-qin.github.io
 - icon: github
   icon_pack: fab
   link: https://github.com/dafei-qin
