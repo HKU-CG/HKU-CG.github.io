@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: '3 papers accepted at ICCV 2023'
+title: '4 papers accepted at ICCV 2023'
 subtitle: ''
-summary: 'summary'
+summary: ''
 
 
 categories: []
@@ -11,6 +11,11 @@ date: '2023-07-01'
 lastmod: 2021-01-15T21:34:50Z
 featured: false
 draft: false
+authors:
+- Wenjia Wang
+- Mingyi Shi
+- Zhiyang Dou
+- Taku Komura
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -22,4 +27,14 @@ image:
 
 ---
 
-The main text
+Four papers were accepted at ICCV 2023. Congratulations!
+
+[Zolly: Zoom Focal Length Correctly for Perspective-Distorted Human Mesh Reconstruction](https://wenjiawang0312.github.io/projects/zolly/)
+
+[PhaseMP: Robust 3D Pose Estimation via Phase-conditioned Human Motion Prior
+](https://rubbly.cn/publications/phaseMP/)
+
+[TORE: Token Reduction for Efficient Human Mesh Recovery with Transformer
+](https://frank-zy-dou.github.io/projects/Tore/index.html)
+
+[Surface Extraction from Neural Unsigned Distance Fields](https://cong-yi.github.io/projects/dualmeshudf/)
