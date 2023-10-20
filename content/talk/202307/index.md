@@ -3,7 +3,7 @@
 
 title: '4 papers accepted at ICCV 2023'
 subtitle: ''
-summary: ''
+summary: 'Zolly, PhaseMP, TORE, DualMeshUDF were accepted at ICCV 2023. Congratulations!'
 
 
 categories: []
@@ -12,10 +12,6 @@ lastmod: 2021-01-15T21:34:50Z
 featured: false
 draft: false
 authors:
-- Wenjia Wang
-- Mingyi Shi
-- Zhiyang Dou
-- Taku Komura
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

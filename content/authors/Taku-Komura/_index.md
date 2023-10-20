@@ -35,15 +35,21 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Research interest 1
-- Research interest 2
-- Research interest 3
+- Physical Simulation
+- Character Animation
+- 3D Modelling
 
 education:
   courses:
   - course: PhD in Computer Science
-    institution: University of Tokyo
-    year: xxx
+    institution: the University of Tokyo
+    year: 2000
+  - course: MSc in Information Science
+    institution: the University of Tokyo
+    year: 1997
+  - course: BSc in Information Science
+    institution: the University of Tokyo
+    year: 1995
   
 
 
@@ -52,24 +58,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-- icon: user-graduate
+- icon: envelope
   icon_pack: fas
-  link: 
-- icon: github
-  icon_pack: fab
-  link: https://github.com/cl117
-# - icon: orcid
-#   icon_pack: fab
-#   link: https://orcid.org/0000-0002-1450-5638
-- icon: university-logo
-  icon_pack: Custom_University
-  link: https://www.colorado.edu/cs/academics/
+  link: mailto:taku@cs.hku.hk
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -78,7 +69,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "zycliao@cs.hku.hk"
+email: "taku@cs.hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -91,4 +82,4 @@ display_groups:
 
 ---
 
-Taku Komura is PI.
+Taku Komura joined Hong Kong University in 2020. Before joining HKU, he worked at the University of Edinburgh (2006-2020), City University of Hong Kong (2002-2006) and RIKEN (2000-2002). He received his BSc, MSc and PhD in Information Science from University of Tokyo. His research has focused on data-driven character animation, physically-based character animation, crowd simulation, 3D modelling, cloth animation, anatomy-based modelling and robotics. Recently, his main research interests have been on physically-based animation and the application of machine learning techniques for animation synthesis. He received the Royal Society Industry Fellowship (2014) and the Google AR/VR Research Award (2017).

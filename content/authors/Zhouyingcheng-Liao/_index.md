@@ -60,24 +60,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
+- icon: envelope
+  icon_pack: fas
+  link: mailto:zycliao@cs.hku.hk
 - icon: user-graduate
   icon_pack: fas
   link: https://zycliao.com
 - icon: github
   icon_pack: fab
   link: https://github.com/zycliao
-# - icon: orcid
-#   icon_pack: fab
-#   link: https://orcid.org/0000-0002-1450-5638
-- icon: university-logo
-  icon_pack: Custom_University
-  link: https://www.colorado.edu/cs/academics/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
