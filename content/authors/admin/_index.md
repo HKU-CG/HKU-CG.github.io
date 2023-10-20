@@ -69,6 +69,6 @@ user_groups:
 
 ---
 
-CGVU Lab belongs to Department of Computer Science, the University of Hong Kong. It is led by Prof. Taku Komura. Our research focus is on physically-based animation and the application of machine learning techniques for animation synthesis.
+CGVU Lab, led by Prof. [Taku Komura](author/taku-komura), belongs to the Department of Computer Science, the University of Hong Kong. Our research focus is on physically-based animation and the application of machine learning techniques for animation synthesis.
 
 ![group.png](/media/group.png)

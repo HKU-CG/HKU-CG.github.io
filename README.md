@@ -1,7 +1,6 @@
 # Best-practices documentation for modifying the website
 
 ## Run the website locally
-
 * Follow instructions on [this page](https://university.wowchemy.com/getting-started/install-hugo/) to install Go and Hugo
 * cd into a directory you want to have the file in
 * git clone https://github.com/HKU-CG/HKU-CG.github.io
@@ -23,6 +22,13 @@
 * Create a new folder with the name of your publication, e.g., `2021-TOG-My-Paper-Title`
 * Create a `_index.md` file in the folder, you're suggested to copy the `_index.md` file from other people's folder and modify it accordingly
 * (optional) add a `featured.jpg` or `featured.png` file to the folder, this will be the thumbnail of your publication
+
+## How to modify the text on the homepage
+* Go to `content/authors/admin/_index.md`
+
+## How to add an image in the text
+* Put the image in `static/media`
+* Use the following syntax (Markdown) to add the image in the text: `![image name](/media/image.png)`
 
 ## How to update the logo
 * The big logo: `content/authors/admin/avatar.png`
