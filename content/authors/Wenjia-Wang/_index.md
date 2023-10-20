@@ -40,8 +40,9 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- 3D Human Reconstruction
-- Motion Generation
+- 3D Reconstruction
+- Human Pose Estimation
+- Human Motion Generation
 
 education:
   courses:
@@ -76,9 +77,6 @@ social:
 # - icon: orcid
 #   icon_pack: fab
 #   link: https://orcid.org/0000-0002-1450-5638
-- icon: university-logo
-  icon_pack: Custom_University
-  link: https://www.colorado.edu/cs/academics/
 - icon: envelope
   icon_pack: fas
   link: mailto:wwj2022@connect.hku.hk
