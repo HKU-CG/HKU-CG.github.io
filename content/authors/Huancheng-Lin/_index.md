@@ -26,9 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: 
-
-projects:
+# personal_homepage: https://wenjiawang0312.github.io/
 
 # Organizations/Affiliations
 organizations:
@@ -86,6 +84,9 @@ email: "wwj2022@connect.hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+# Existing user group: "Principal Investigator", "Postdocs", "Graduate Students", 
+#  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
+#  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
 - Graduate Students
 

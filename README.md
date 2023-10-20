@@ -13,8 +13,16 @@
 * Go to `content/authors`
 * Create a new folder with your name, e.g., `Taku-Komura`
 * Create a `_index.md` file in the folder, you're suggested to copy the `_index.md` file from other people's folder and modify it accordingly
-* Note that if you don't want the default page to be your personal homepage, you can set the `personal_homepage` variable to your personal homepage
 * Add your profile picture to the folder, and name it `avatar.jpg` or `avatar.png`
+* Note: set the variable `weight` as your start year&month (e.g., 202301) so that the order of people is correct. If you're an alumni, set the `weight` as your graduation -year&month (e.g., -202307)
+* Note: set your user_groups as one of the following: `Principal Investigator`, `Postdocs`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
+* Note: if you don't want the default page to be the sub-page of this website, you can set the `personal_homepage` variable to your personal homepage
+
+# How to add a publication
+* Go to `content/publications`
+* Create a new folder with the name of your publication, e.g., `2021-TOG-My-Paper-Title`
+* Create a `_index.md` file in the folder, you're suggested to copy the `_index.md` file from other people's folder and modify it accordingly
+* (optional) add a `featured.jpg` or `featured.png` file to the folder, this will be the thumbnail of your publication
 
 ## Website Structure Overview
 

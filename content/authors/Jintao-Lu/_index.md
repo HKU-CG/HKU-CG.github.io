@@ -28,8 +28,6 @@ department:
 # set this if you want the page to automatically redirect to your personal homepage
 # personal_homepage: https://wenjiawang0312.github.io/
 
-projects:
-
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
@@ -57,21 +55,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
 - icon: user-graduate
   icon_pack: fas
   link: https://scholar.google.com/citations?user=0AwDFzkAAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
   link: https://github.com/lujintaozju
-# - icon: orcid
-#   icon_pack: fab
-#   link: https://orcid.org/0000-0002-1450-5638
 - icon: university-logo
   icon_pack: Custom_University
   link: https://www.colorado.edu/cs/academics/
@@ -87,6 +76,9 @@ email: "jtlu@cs.hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+# Existing user group: "Principal Investigator", "Postdocs", "Graduate Students", 
+#  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
+#  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
 - Graduate Students
 
