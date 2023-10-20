@@ -60,8 +60,8 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
-   icon_pack: fas
-   link: mailto:floyd.m.chitalu@gmail.com
+  icon_pack: fas
+  link: mailto:floyd.m.chitalu@gmail.com
 #- icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/Floyd_Chitalu
