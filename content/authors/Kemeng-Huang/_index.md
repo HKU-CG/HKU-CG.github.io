@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-personal_homepage: https://kemenghuang.github.io/
+# personal_homepage: https://kemenghuang.github.io/
 
 projects:
 
@@ -92,4 +92,4 @@ user_groups:
 display_groups:
 ---
 <!-- # write your biography here -->
-https://kemenghuang.github.io/
+[Personal Page](https://kemenghuang.github.io/)

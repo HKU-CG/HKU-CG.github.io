@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-personal_homepage: https://dafei-qin.github.io/
+# personal_homepage: https://dafei-qin.github.io/
 
 projects:
 
@@ -90,4 +90,4 @@ display_groups:
 
 <!-- # write your biography here
 Dafei Qin is a stupid PhD student. -->
-
+[Personal Page](https://dafei-qin.github.io/)

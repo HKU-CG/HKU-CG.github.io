@@ -16,6 +16,7 @@
 * Note: set the variable `weight` as your start year&month (e.g., 202301) so that the order of people is correct. If you're an alumni, set the `weight` as your graduation -year&month (e.g., -202307)
 * Note: set your user_groups as one of the following: `Principal Investigator`, `Postdocs`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
 * Note: if you don't want the default page to be the sub-page of this website, you can set the `personal_homepage` variable to your personal homepage
+You can use default markdown expression at the bottom of your page: [Personal Page](url)
 
 ## How to add a publication
 * Go to `content/publications`

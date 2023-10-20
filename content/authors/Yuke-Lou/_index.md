@@ -96,4 +96,4 @@ display_groups:
 ---
 
 <!-- # write your biography here -->
-[Personal Page of Yuke Lou](https://thorin666.github.io/)
+[Personal Page](https://thorin666.github.io/)

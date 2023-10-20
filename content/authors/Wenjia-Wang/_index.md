@@ -26,6 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
+# Otherwise please use default (see bottom of the page)
 # personal_homepage: https://wenjiawang0312.github.io/
 
 projects:
@@ -40,7 +41,7 @@ organizations:
 
 interests:
 - 3D Human Reconstruction
-- Human Pose Generation
+- Motion Generation
 
 education:
   courses:
@@ -102,4 +103,4 @@ display_groups:
 ---
 
 <!-- # write your biography here -->
-[Personal Page of Wenjia Wang](https://wenjiawang0312.github.io/)
+[Personal Page](https://wenjiawang0312.github.io/)
