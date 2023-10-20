@@ -38,7 +38,7 @@ organizations:
 
 interests:
 - Human Scene Interaction
-- Animation
+- Motion Control
 
 education:
   courses:
