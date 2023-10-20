@@ -4,7 +4,7 @@ title: Floyd M. Chitalu
 
 # Username (this should match the folder name)
 authors:
--  Floyd M Chitalu
+- Floyd M Chitalu
 
 #Author Names (alternative spellings etc)
 names:
@@ -31,7 +31,7 @@ department:
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
-  url: https://hub.hku.hk/cris/rp/rp03072
+  # url: https://hub.hku.hk/cris/rp/rp03072
 
 # Short bio (displayed in user profile at end of posts)
 # bio: 
