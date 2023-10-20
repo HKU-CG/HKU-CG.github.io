@@ -39,7 +39,7 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Facial Rigging & Animation
+- Facial Animation
 - Neural Rendering
 
 education:
