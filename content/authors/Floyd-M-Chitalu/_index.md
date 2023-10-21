@@ -68,12 +68,12 @@ social:
 # - icon: user-graduate
 #   icon_pack: fas
 #   link: 
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/LamWS
- - icon: orcid
-   icon_pack: fab
-   link: https://orcid.org/0000-0001-9489-8592
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/LamWS
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0001-9489-8592
 # - icon: university-logo
 #  icon_pack: Custom_University
 #  link: https://www.colorado.edu/cs/academics/
