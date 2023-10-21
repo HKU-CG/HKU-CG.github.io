@@ -4,7 +4,7 @@ title: Floyd M. Chitalu
 
 # Username (this should match the folder name)
 authors:
-- Floyd M Chitalu
+- Floyd M. Chitalu
 
 #Author Names (alternative spellings etc)
 names:
