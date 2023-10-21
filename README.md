@@ -1,5 +1,11 @@
 # Best-practices documentation for modifying the website
 
+## Read this before you push anything!
+* Don't use `push -f`. It will overwrite other people's changes. Before you push, make sure you pull the latest version of the website.
+* After pushing, check if the website is deployed correctly. If it's successfully deployed, you should see a green tick beside the commit. If it fails, you'll see a red cross. If you see a red cross, click on it and check the error message. If you can't figure out what's wrong, ask someone else for help.
+* `.md` files in this repo use YAML format. So it's sensitive to the indentation! If you're not confident enough, copy existing files and modify them.
+* After it is deployed, it will take a few minutes for the website to be updated. Make sure you check the website to see if your changes are reflected.
+
 ## Run the website locally
 * Follow instructions on [this page](https://university.wowchemy.com/getting-started/install-hugo/) to install Go and Hugo
 * cd into a directory you want to have the file in
@@ -11,18 +17,22 @@
 ## How to add your own profile
 * Go to `content/authors`
 * Create a new folder with your name, e.g., `Taku-Komura`
-* Create a `_index.md` file in the folder, you're suggested to copy the `_index.md` file from other people's folder and modify it accordingly
+* Create a `index.md` file in the folder, you're suggested to copy the `index.md` file from other people's folder and modify it accordingly
 * Add your profile picture to the folder, and name it `avatar.jpg` or `avatar.png`
-* Note: set the variable `weight` as your start year&month (e.g., 202301) so that the order of people is correct. If you're an alumni, set the `weight` as your graduation -year&month (e.g., -202307)
-* Note: set your user_groups as one of the following: `Principal Investigator`, `Postdocs`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
-* Note: if you don't want the default page to be the sub-page of this website, you can set the `personal_homepage` variable to your personal homepage
-You can use default markdown expression at the bottom of your page: [Personal Page](url)
+* Important: the variable `authors` and `name` should be the same, they should also match the folder name (except the folder uses hyphen (-) instead of space)
+* Important: set the variable `weight` as your start year&month (e.g., 202301) so that the order of people is correct. If you're an alumni, set the `weight` as your graduation -year&month (e.g., -202307)
+* Important: set your user_groups as one of the following: `Principal Investigator`, `Postdocs`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
 
 ## How to add a publication
 * Go to `content/publications`
 * Create a new folder with the name of your publication, e.g., `2021-TOG-My-Paper-Title`
-* Create a `_index.md` file in the folder, you're suggested to copy the `_index.md` file from other people's folder and modify it accordingly
+* Create a `index.md` file in the folder, you're suggested to copy the `index.md` file from other people's folder and modify it accordingly
+* Important: the abstract is a variable, so it should be one line (in Markdown format). If you want to change the line, use `<br>`. Some special symbols need to be escaped, for example, if you want to use `:`, you should type `\:`. Here's a detailed list of [Markdown escaping characters](https://github.com/mattcone/markdown-guide/blob/master/_basic-syntax/escaping-characters.md)
 * (optional) add a `featured.jpg` or `featured.png` file to the folder, this will be the thumbnail of your publication
+
+## How to add a news
+* Go to `content/talk`
+* Create a new folder, e.g., `202307-iccv` and create a `index.md` file in the folder
 
 ## How to modify the text on the homepage
 * Go to `content/authors/admin/_index.md`
