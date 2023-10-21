@@ -90,6 +90,5 @@ display_groups:
 
 ---
 
-<!-- # write your biography here
-Zhouyingcheng Liao is a stupid PhD student. -->
-[Personal Page](https://zycliao.com)
+<!-- # write your biography here -->
+Personal Homepage: https://zycliao.com
