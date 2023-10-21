@@ -80,11 +80,11 @@ email: "yinghao.huang@transgp.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-# Existing user group: "Principal Investigator", "Postdocs", "Graduate Students", 
+# Existing user group: "Principal Investigator", "Research Staff", "Graduate Students", 
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Postdocs
+- Research Staff
 
 
 #any user groups to display on the page

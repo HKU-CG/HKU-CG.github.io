@@ -21,7 +21,7 @@
 * Add your profile picture to the folder, and name it `avatar.jpg` or `avatar.png`
 * Important: the variable `authors` and `name` should be the same, they should also match the folder name (except the folder uses hyphen (-) instead of space)
 * Important: set the variable `weight` as your start year&month (e.g., 202301) so that the order of people is correct. If you're an alumni, set the `weight` as your graduation -year&month (e.g., -202307)
-* Important: set your user_groups as one of the following: `Principal Investigator`, `Postdocs`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
+* Important: set your user_groups as one of the following: `Principal Investigator`, `Research Staff`, `Graduate Students`, `Research Assistant`, `Undergraduate Students`, `Postdoctoral Alumni`, `PhD Alumni`, `Masters Alumni`, `Undergraduate Alumni`, `RA Alumni`
 
 ## How to add a publication
 * Go to `content/publications`
