@@ -37,7 +37,10 @@ organizations:
 # bio: 
 
 interests:
-- Computer Graphics, Physical Simulation, Computational Geometry, 3D Modelling
+- Computer Graphics
+- Physical Simulation
+- Computational Geometry
+- 3D Modelling
 
 education:
   courses:
@@ -58,7 +61,7 @@ education:
 social:
 - icon: envelope
    icon_pack: fas
-   link: "mailto:floyd.m.chitalu@gmail.com".
+   link: mailto:floyd.m.chitalu@gmail.com
 #- icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/Floyd_Chitalu
