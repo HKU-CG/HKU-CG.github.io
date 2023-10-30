@@ -18,7 +18,7 @@ weight: 202211
 superuser: false
 
 # Role/position
-role: Senior researcher, since Nov. 2023. 
+role: Senior researcher, since Nov. 2022. 
 
 university: HKU
 
@@ -37,10 +37,7 @@ organizations:
 # bio: 
 
 interests:
-- Computer Graphics
 - Physical Simulation
-- Computational Geometry
-- 3D Modelling
 
 education:
   courses:
