@@ -1,55 +1,52 @@
 ---
 # Display name
-title: Floyd M. Chitalu
+title: Leo Ho
 
 # Username (this should match the folder name)
 authors:
-- Floyd M. Chitalu
+- Leo Ho
 
 #Author Names (alternative spellings etc)
 names:
-- Floyd M. Chitalu
+- Leo Ho
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 202211
+weight: 202308
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Senior researcher, since Nov. 2022. 
-
-university: HKU
+role: Research Assistant, since Aug. 2023. 
 
 department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: https://www.floydmchitalu.com/
+# personal_homepage: https://github.com/MuGdxy
 
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
-  url: ""
+  # url: ""
 
 # Short bio (displayed in user profile at end of posts)
 # bio: 
 
 interests:
-- Physical Simulation
+- Digital Humans
+- Motion Synthesis
 
 education:
   courses:
-  - course: Ph.D in Computer Science (CDT in Pervasive Parallelism)
-    institution: University of Edinburgh
-    year: 2020
-  - course: MScRes in Computer Science (CDT in Pervasive Parallelism)
-    institution: University of Edinburgh
-    year: 2016
-  - course: BSc (Hons). in Computer Games Technology
-    institution: University of the West of Scotland
-    year: 2015
+  - course: BEng in Computer Science
+    institution: University of Hong Kong
+    year: 2023
+  - course: BBA in Information Systems and Computer Science
+    institution: University of Hong Kong
+    year: 2022
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -58,19 +55,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:floyd.m.chitalu@gmail.com
-#- icon: twitter
+  link: 'mailto:leohocs@hku.hk'
+# - icon: twitter
 #   icon_pack: fab
-#   link: https://twitter.com/Floyd_Chitalu
+#   link: https://twitter.com/GeorgeCushen
 # - icon: user-graduate
 #   icon_pack: fas
 #   link: 
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/LamWS
-- icon: orcid
+- icon: github
   icon_pack: fab
-  link: https://orcid.org/0000-0001-9489-8592
+  link: https://github.com/leohku
+# - icon: orcid
+#   icon_pack: fab
+#   link: https://orcid.org/0000-0002-1450-5638
 # - icon: university-logo
 #  icon_pack: Custom_University
 #  link: https://www.colorado.edu/cs/academics/
@@ -82,7 +79,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "floyd.m.chitalu@gmail.com"
+email: "leohocs@hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -90,13 +87,10 @@ email: "floyd.m.chitalu@gmail.com"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Research Staff
+- Research Assistant
 
 
 #any user groups to display on the page
 display_groups:
 
 ---
-
-<!-- # write your biography here -->
-[Personal Page](https://www.floydmchitalu.com/)
