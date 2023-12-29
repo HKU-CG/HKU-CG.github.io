@@ -38,7 +38,7 @@ organizations:
 
 interests:
 - Character Animation 
-- <br /> Geometric Computing 
+- Geometric Computing 
 
 education:
   courses:
