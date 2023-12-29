@@ -2,11 +2,11 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: 'TORE: Token Reduction for Efficient Human Mesh Recovery with Transformer'
-subtitle: ''
-summary: ''
+subtitle: 'Equal contributions: Zhiyang and Qingxuan'
+summary: 
 authors:
-- Zhiyang Dou*
-- Qingxuan Wu*
+- Zhiyang Dou
+- Qingxuan Wu
 - Cheng Lin
 - Zeyu Cao
 - Qiangqiang Wu
