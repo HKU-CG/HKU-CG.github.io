@@ -8,7 +8,7 @@ authors:
 
 #Author Names (alternative spellings etc)
 names:
-- Frank Zhiyang Dou
+- Zhiyang Dou
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
