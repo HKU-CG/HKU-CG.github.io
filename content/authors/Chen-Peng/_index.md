@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Xinyu Lu
+title: Chen Peng
 
 # Username (this should match the folder name)
 authors:
-- Xinyu Lu
+- Chen Peng
 
 #Author Names (alternative spellings etc)
 names:
-- Xinyu Lu
+- Chen Peng
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
@@ -18,7 +18,7 @@ weight: 202309
 superuser: false
 
 # Role/position
-role: Research Assistant, since Sep. 2023. 
+role: Postdoc, since Sep. 2023. 
 
 department:
 - Computer Science
@@ -29,7 +29,6 @@ department:
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
-- name: TransGP
   # url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -37,16 +36,16 @@ organizations:
 
 interests:
 - Physically-Based Animation
-- Simulation
+- Fluid Simulation
 
 education:
   courses:
-  - course: MSc in Computer Science and Technology
-    institution: Harbin Institution of Technology
-    year: 2023
-  - course: BSc in Mechanical Design Manufacture and Automation
-    institution: Harbin Institution of Technology
-    year: 2021
+  - course: PhD in Software Engineering
+    institution: East China Normal University
+    year: 2022
+  - course: BSc in Software Engineering
+    institution: East China Normal University
+    year: 2016
 
 
 # Social/Academic Networking
@@ -88,7 +87,7 @@ email: "xy.lu@transgp.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Research Assistant
+- Research Staff
 
 
 #any user groups to display on the page

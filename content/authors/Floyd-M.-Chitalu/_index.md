@@ -18,7 +18,7 @@ weight: 202211
 superuser: false
 
 # Role/position
-role: Senior researcher, since Nov. 2023. 
+role: Senior researcher, since Nov. 2022. 
 
 university: HKU
 
@@ -37,10 +37,7 @@ organizations:
 # bio: 
 
 interests:
-- Computer Graphics
 - Physical Simulation
-- Computational Geometry
-- 3D Modelling
 
 education:
   courses:
@@ -89,11 +86,11 @@ email: "floyd.m.chitalu@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-# Existing user group: "Principal Investigator", "Postdocs", "Graduate Students", 
+# Existing user group: "Principal Investigator", "Research Staff", "Graduate Students", 
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Postdocs
+- Research Staff
 
 
 #any user groups to display on the page

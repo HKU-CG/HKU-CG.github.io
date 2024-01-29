@@ -8,7 +8,7 @@ authors:
 
 #Author Names (alternative spellings etc)
 names:
-- Frank Zhiyang Dou
+- Zhiyang Dou
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
@@ -38,7 +38,7 @@ organizations:
 
 interests:
 - Character Animation 
-- <br /> Geometric Computing 
+- Geometric Computing 
 
 education:
   courses:
@@ -76,7 +76,7 @@ email: "zhiyang0@connect.hku.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-# Existing user group: "Principal Investigator", "Postdocs", "Graduate Students", 
+# Existing user group: "Principal Investigator", "Research Staff", "Graduate Students", 
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:

@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Xinyu Lu
+title: Yinghao Huang
 
 # Username (this should match the folder name)
 authors:
-- Xinyu Lu
+- Yinghao Huang
 
 #Author Names (alternative spellings etc)
 names:
-- Xinyu Lu
+- Yinghao Huang
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 202309
+weight: 202308
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Research Assistant, since Sep. 2023. 
+role: Postdoc, since Aug. 2023. 
 
 department:
 - Computer Science
@@ -29,24 +29,20 @@ department:
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
-- name: TransGP
   # url: ""
 
 # Short bio (displayed in user profile at end of posts)
 # bio: 
 
 interests:
-- Physically-Based Animation
-- Simulation
+- Human Pose Estimation
+- Human Motion Generation
 
 education:
   courses:
-  - course: MSc in Computer Science and Technology
-    institution: Harbin Institution of Technology
-    year: 2023
-  - course: BSc in Mechanical Design Manufacture and Automation
-    institution: Harbin Institution of Technology
-    year: 2021
+  - course: PhD in Computer Science
+    institution: Eberhard Karls University of Tübingen, Germany
+    year: 2022
 
 
 # Social/Academic Networking
@@ -80,7 +76,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "xy.lu@transgp.hk"
+email: "yinghao.huang@transgp.hk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -88,7 +84,7 @@ email: "xy.lu@transgp.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Research Assistant
+- Research Staff
 
 
 #any user groups to display on the page
