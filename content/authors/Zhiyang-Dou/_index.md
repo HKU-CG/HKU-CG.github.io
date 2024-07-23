@@ -30,7 +30,7 @@ department:
 
 # Organizations/Affiliations
 organizations:
-- name: University of Hong Kong
+- name: The University of Hong Kong
   # url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -42,13 +42,15 @@ interests:
 
 education:
   courses:
+  - course: Visiting PhD in Computer Science
+    institution: University of Pennsylvania
+    year: 2025 (expected)
   - course: PhD in Computer Science
-    institution: University of Hong Kong
+    institution: The University of Hong Kong
     year: 2025 (expected)
   - course: Computer Science
     institution: Shandong University
     year: 2020
-
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
