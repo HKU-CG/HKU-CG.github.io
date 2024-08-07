@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'One papers accepted at SGP 2024'
+title: 'Four papers accepted at ECCV 2024'
 subtitle: ''
-summary: 'One papers accepted at SGP 2024'
+summary: 'SENC, EMDM, Surf-D and TLControl got accepted at ECCV 2024. Congratulations!'
 
 
 categories: []
-date: '2024-06-01'
+date: '2024-07-10'
 lastmod: 2021-01-15T21:34:50Z
 featured: false
 draft: false
@@ -23,4 +23,4 @@ image:
 
 ---
 
-One papers accepted at SGP 2024.
+SENC, EMDM, Surf-D and TLControl got accepted at ECCV 2024. Congratulations!
