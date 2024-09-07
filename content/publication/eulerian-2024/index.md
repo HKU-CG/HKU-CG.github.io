@@ -22,7 +22,7 @@ tags:
 - 'Grid-based method'
 
 categories: []
-date: '2024-08-01'
+date: '2024-12-01'
 lastmod: 2024-08-07T21:34:50Z
 featured: false
 draft: false
