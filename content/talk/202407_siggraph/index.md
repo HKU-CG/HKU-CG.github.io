@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Two papers presented in SIGGRAPG 2024'
+title: 'Two papers presented in SIGGRAPH 2024'
 subtitle: ''
 summary: 'Check our new siggraph paper: CAMDM and GPU-IPC.'
 
