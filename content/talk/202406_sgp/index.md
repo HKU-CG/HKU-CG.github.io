@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'One papers accepted at SGP 2024'
+title: 'One paper accepted at SGP 2024'
 subtitle: ''
-summary: 'One papers accepted at SGP 2024'
+summary: 'One paper accepted at SGP 2024'
 
 
 categories: []
@@ -23,4 +23,4 @@ image:
 
 ---
 
-One papers accepted at SGP 2024.
+One paper accepted at SGP 2024.
