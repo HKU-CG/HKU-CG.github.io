@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'One paper accepted to ICLR 2025'
+title: 'One paper accepted to CVPR 2025'
 subtitle: ''
-summary: 'Check our new paper: DICE.'
+summary: 'Check our new paper: TokenHSI.'
 
 
 categories: []
-date: '2025-01-01'
-lastmod: 2025-01-1T21:34:50Z
+date: '2025-03-01'
+lastmod: 2025-03-1T21:34:50Z
 featured: false
 draft: false
 authors:
@@ -23,4 +23,4 @@ image:
 
 ---
 
-DICE was accepted to ICLR 2025. Project Page: https://frank-zy-dou.github.io/projects/DICE/index.html.
+TokenHSI was accepted to CVPR 2025. Project Page: Coming soon.

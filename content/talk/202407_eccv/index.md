@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Four papers accepted at ECCV 2024'
+title: 'Four papers accepted to ECCV 2024'
 subtitle: ''
 summary: 'SENC, EMDM, Surf-D and TLControl got accepted at ECCV 2024. Congratulations!'
 

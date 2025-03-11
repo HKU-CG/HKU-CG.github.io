@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'One paper accepted to ICLR 2025'
+title: 'Two papers accepted to SIGGRAPH 2024'
 subtitle: ''
-summary: 'Check our new paper: DICE.'
+summary: 'Check our new siggraph paper: CAMDM and GPU-IPC.'
 
 
 categories: []
-date: '2025-01-01'
-lastmod: 2025-01-1T21:34:50Z
+date: '2024-07-01'
+lastmod: 2021-01-15T21:34:50Z
 featured: false
 draft: false
 authors:
@@ -23,4 +23,4 @@ image:
 
 ---
 
-DICE was accepted to ICLR 2025. Project Page: https://frank-zy-dou.github.io/projects/DICE/index.html.
+CAMDM got accepted at SIGGRAPH 2024. Our another GPU-IPC will be also presented there. Congratulations!

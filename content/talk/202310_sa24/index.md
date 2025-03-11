@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Two papers accepted at SIGGRAPH Asia 2024'
+title: 'Two papers accepted to SIGGRAPH Asia 2024'
 subtitle: ''
-summary: 'Two papers got accepted at SIGGRAPH Asia 2024. Congratulations!'
+summary: 'Two papers got accepted to SIGGRAPH Asia 2024. Congratulations!'
 
 
 categories: []

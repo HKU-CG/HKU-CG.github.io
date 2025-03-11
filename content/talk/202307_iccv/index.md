@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Four papers accepted at ICCV 2023'
+title: 'Four papers accepted to ICCV 2023'
 subtitle: ''
 summary: 'Zolly, PhaseMP, TORE, DualMeshUDF were accepted at ICCV 2023. Congratulations!'
 
