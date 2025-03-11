@@ -14,7 +14,7 @@
 * run `hugo server`
 * Check it is up and running at localhost:1313
 
-update: we have updated the website from v3 to v4 - https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/.
+update: we have updated the website from v3 to v2 - https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/.
 
 ## How to add your own profile
 * Go to `content/authors`
