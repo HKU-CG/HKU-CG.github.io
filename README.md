@@ -14,7 +14,8 @@
 * run `hugo server`
 * Check it is up and running at localhost:1313
 
-update: we have updated the website from v3 to v2 - https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/.
+update: if Github raises an error about deploying, it might be because of the version upgrading of Github Actions.  
+If that's the case, you could compare .github/workflows/hugo.yml with https://github.com/actions/starter-workflows/blob/main/pages/hugo.yml (which should be updated), to see if any version needs to be updated.
 
 ## How to add your own profile
 * Go to `content/authors`
