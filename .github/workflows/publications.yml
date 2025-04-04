@@ -1,13 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 name: publication upload academic
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - '*.bib'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - '*.bib'
     
@@ -37,7 +37,7 @@ jobs:
         
       - name: New Branch
         run: |
-          git checkout -b Pub-$GITHUB_RUN_NUMBER master
+          git checkout -b Pub-$GITHUB_RUN_NUMBER main
 
       #installs python on the machine
       - name: install python
@@ -76,7 +76,7 @@ jobs:
          git commit -m "Add changes" -a
          
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: Pub-${{ GITHUB.RUN_NUMBER}}
@@ -88,8 +88,8 @@ jobs:
         with:
           # Branch name to pull from, default is triggered branch
           source_branch: Pub-${{ GITHUB.RUN_NUMBER}}
-          # Branch name to sync to in this repo, default is master
-          destination_branch: master
+          # Branch name to sync to in this repo, default is main
+          destination_branch: main
           # Pull request title
           pr_title: Merge in updated publications
           # Pull request body
