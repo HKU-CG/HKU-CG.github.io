@@ -8,7 +8,7 @@ summary: 'Check our new paper: DICE.'
 
 categories: []
 date: '2025-01-01'
-lastmod: 2025-01-1T21:34:50Z
+lastmod: 2025-01-01T21:34:50Z
 featured: false
 draft: false
 authors:

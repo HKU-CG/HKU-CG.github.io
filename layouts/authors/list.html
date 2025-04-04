@@ -22,11 +22,11 @@
 
     {{$newAuthor := .Scratch.Get "newAuthor"}}
     <head>
-      <title>/author/{{$newAuthor}}/</title>
-      <link rel="canonical" href="/author/{{$newAuthor}}/"/>
+      <title>/authors/{{$newAuthor}}/</title>
+      <link rel="canonical" href="/authors/{{$newAuthor}}/"/>
       <meta name="robots" content="noindex">
       <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-      <meta http-equiv="refresh" content="0; url=/author/{{$newAuthor}}/"/>
+      <meta http-equiv="refresh" content="0; url=/authors/{{$newAuthor}}/"/>
     </head>
   {{end}}
 <div class="universal-wrapper pt-3">
@@ -39,28 +39,32 @@
     {{/* Show the About widget if an account exists for this user. */}}
     {{ if .File }}
       {{ $widget := "widgets/about.html" }}
-      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
-      {{ $params := dict "root" $ "page" . "author" $username }}
-      {{ partial $widget $params }}
+      {{ $username := (path.Base .Path) }}{{/* 修复：直接获取路径的最后一部分作为用户名 */}}
+      {{ if ne $username "_index" }}{{/* 修复：检查是否不是索引页 */}}
+        {{ $params := dict "root" $ "page" . "author" $username }}
+        {{ partial $widget $params }}
+      {{ end }}
     {{end}}
 
     {{ if .File }}
       {{ $display_groups := .Params.display_groups}}
       {{ $widget := "widgets/people_inpage.html" }}
-      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
-      {{ if intersect .Params.user_groups (slice "Alumni" "Researchers")}}
-        {{ $subtitle := "Contributed To"}}
-        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
-        {{ partial $widget $params }}
-      {{ else}}
-        {{ $subtitle := "Tools"}}
-        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
-        {{ partial $widget $params }}
+      {{ $username := (path.Base .Path) }}{{/* 修复：同样更新这里 */}}
+      {{ if ne $username "_index" }}{{/* 修复：同样更新这里 */}}
+        {{ if intersect .Params.user_groups (slice "Alumni" "Researchers")}}
+          {{ $subtitle := "Contributed To"}}
+          {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+          {{ partial $widget $params }}
+        {{ else}}
+          {{ $subtitle := "Tools"}}
+          {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+          {{ partial $widget $params }}
 
-        {{ $subtitle := "Contributors"}}
-        {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
-        {{ partial $widget $params }}
-      {{ end  }}
+          {{ $subtitle := "Contributors"}}
+          {{ $params := dict "root" $ "display_groups" $display_groups "subtitle" $subtitle}}
+          {{ partial $widget $params }}
+        {{ end  }}
+      {{ end }}
     {{end}}
 
 
