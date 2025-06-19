@@ -5,7 +5,7 @@
         content="InterAct: Capture and Modelling of Realistic, Expressive and Interactive Activities between Two Persons in Daily Scenarios">
   <meta name="keywords" content="Diffusion Models, Motion Dataset, Motion Capture, Motion Generation, Digital Humans, Interactive Motion, Facial Expressions, Yinghao Huang, Leo Ho, Dafei Qin, Mingyi Shi, Taku Komura, Diffusion Probabilistic Models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>InterAct: Capture and Modelling of Realistic, Expressive and Interactive Activities between Two Persons in Daily Scenarios</title>
+  <title>InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios</title>
   
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -32,15 +32,15 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">InterAct: Capture and Modelling of Realistic, Expressive and Interactive Activities between Two Persons in Daily Scenarios</h1>
+          <h1 class="title is-1 publication-title">InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios</h1>
           <p style="padding-bottom: 10px;">
             <!-- <span class="is-size-5" style="font-weight: bold;">arXiv</span> -->
             <p>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://github.com/YinghaoHuang91">Yinghao Huang</a><sup>*</sup><sup>1</sup><sup>,</sup><sup>2</sup>,</span>
+              <a href="https://github.com/leohku">Leo Ho</a><sup>*</sup><sup>1</sup><sup>,</sup><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://haskel.io/">Leo Ho</a><sup>*</sup><sup>1</sup>,</span>
+              <a href="https://github.com/YinghaoHuang91">Yinghao Huang</a><sup>*</sup><sup>3</sup><sup>,</sup><sup>4</sup>,</span>
             <span class="author-block">
               <a href="https://dafei-qin.github.io/">Dafei Qin</a><sup>1</sup>,
             </span>
@@ -48,7 +48,16 @@
               <a href="https://rubbly.cn/">Mingyi Shi</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://i.cs.hku.hk/~taku/">Taku Komura</a><sup>1</sup>,
+              <a href="https://jerrytseee.github.io">Wangpok Tse</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://weiliu.me/">Wei Liu</a><sup>5</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://yamagishilab.org">Junichi Yamagishi</a><sup>6</sup>,
+            </span> 
+            <span class="author-block">
+              <a href="https://i.cs.hku.hk/~taku/">Taku Komura</a><sup>1</sup><sup>,</sup><sup>2</sup>,
             </span>
           </div>
 
@@ -57,6 +66,10 @@
             <div class="is-size-6 publication-authors">
               <span class="author-block"><sup>1 </sup>The University of Hong Kong,</span>
               <span class="author-block"><sup>2 </sup>Centre for Transformative Garment Production</span>
+              <span class="author-block"><sup>3 </sup>Great Bay University</span> 
+              <span class="author-block"><sup>4 </sup>Dongguan Key Laboratory for Intelligence and Information Technology</span>
+              <span class="author-block"><sup>5 </sup>Shandong University</span> 
+              <span class="author-block"><sup>6 </sup>National Institute of Informatics</span> 
             </div>
           </div>
 
@@ -68,7 +81,7 @@
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>ArXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
               <!-- PDF Link. -->
@@ -80,6 +93,15 @@
                       <i class="fa fa-database"></i>
                   </span>
                   <span>Dataset</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=CYY6ghLdXJY&embeds_referring_euri=http%3A%2F%2Flocalhost%3A1313%2F&source_ve_path=MjM4NTE"
+                   class="external-link button is-normal is-rounded is-dark" >
+                  <span class="icon">
+                      <i class="fa fa-video"></i>
+                  </span>
+                  <span>Video</span>
                   </a>
               </span>
               <span class="link-block">
@@ -96,10 +118,12 @@
           </div>
         </div>
       </div>
+      <div class="content has-text-centered">
+        <img src="./static/images/gallery_HD_compressed.png" alt="Poster, showing various characters in pairs of two performing different postures" style="width: 100%; height: auto; border-radius: 10px;">
+      </div>
     </div>
   </div>
 </section>
-
 
 <section class="section" style="background-color: #f5f5f5;">
   <div class="container is-max-desktop">
@@ -110,7 +134,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We address the problem of accurate capture and expressive modelling of interactive behaviors happening between two persons in daily scenarios. Different from previous works which either only consider one person or focus on conversational gestures, we propose to simultaneously model the activities of two persons, and target objective-driven, dynamic, and coherent interactions which often span long duration and cover big space. To this end, we capture a new dataset dubbed InterAct, which is composed of 241 motion sequences where two persons perform a realistic, dynamic, and coherent scenario over each whole sequence. The audios, body motions, and facial expressions of both persons are all captured in our dataset. We also demonstrate the first diffusion model based approach that directly estimates the interactive motions between two persons from their audios alone. All the data and code will be available for research purposes upon acceptance of the paper.
+            We introduce InterAct, a new multi-modal dataset composed of 241 motion sequences where two people perform a realistic and coherent scenario for one minute or longer over a complete interaction. We simultaneously model two people's activities, and target objective-driven, dynamic, and semantically consistent interactions which often span longer duration and cover bigger space. The speech audios, body motions, and facial expressions of both persons are captured. Most previous works either only consider one person or solely focus on conversational gestures of two people, assuming the body orientation and/or position of each actor are constant or barely change over each interaction. Our work is the first to capture and model such long-term and dynamic interactions between two people. To facilitate further research, the data and code will be made public upon acceptance.
           </p>
         </div>
       </div>
@@ -119,42 +143,115 @@
     <!--/ Abstract. -->
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">  
+<section class="section" style="background-color: #ffffff;">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="content has-text-justified" style="display: flex; justify-content: center;">
-          <iframe style="aspect-ratio: 16 / 9; width: 100% !important;" src="https://www.youtube-nocookie.com/embed/ys_tQaUlxs8?si=4jJzT4t__DqZVH_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 class="title is-3">Dataset at a Glance</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/at_a_glance.png" alt="Dataset at a Glance" style="width: 100%; height: auto; border-radius: 10px;">
+        </div>
+        <h3 class="title is-4">Breakdown</h3>
+        <div class="columns">
+          <div class="column">
+            <img src="./static/images/relationship_pie.png" alt="Relationship Pie" style="width: 100%; height: auto; border-radius: 10px; max-width: 300px;">
+            <p class="has-text-centered">Relationship</p>
+          </div>
+          <div class="column">
+            <img src="./static/images/emotion_pie.png" alt="Emotion Pie" style="width: 100%; height: auto; border-radius: 10px; max-width: 300px;">
+            <p class="has-text-centered">Emotion</p>
+          </div>
+          <div class="column">
+            <img src="./static/images/gender_pie.png" alt="Gender Pie" style="width: 100%; height: auto; border-radius: 10px; max-width: 300px;">
+            <p class="has-text-centered">Gender</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>   
-</section>  
+  </div>
+    <!--/ Abstract. -->
+</section>
 
 <section class="section" style="background-color: #f5f5f5;">
   <div class="container is-max-desktop">  
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2>
+        <h2 class="title is-3">Video Overview</h2>
         <div class="content has-text-justified">
-          <p>
-            To be written
-          </p>
+          <iframe style="aspect-ratio: 16 / 9; width: 100% !important; margin-bottom: 1.5rem;" src="https://www.youtube.com/embed/CYY6ghLdXJY?si=GPxp5To5na8qb-Pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <h3 class="title is-4">Examples</h3>
+          <div id="results-carousel" class="carousel">
+            <div class="item-1" style="padding: 0 0.5rem;">
+              <video class="content-video" style="width: 100%; height: auto; border-radius: 10px;" controls>
+                <source src="./static/videos/1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="item-2" style="padding: 0 0.5rem;">
+              <video class="content-video" style="width: 100%; height: auto; border-radius: 10px;" controls>
+                <source src="./static/videos/2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="item-3" style="padding: 0 0.5rem;">
+              <video class="content-video" style="width: 100%; height: auto; border-radius: 10px;" controls>
+                <source src="./static/videos/3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="item-4" style="padding: 0 0.5rem;">
+              <video class="content-video" style="width: 100%; height: auto; border-radius: 10px;" controls>
+                <source src="./static/videos/4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="item-5" style="padding: 0 0.5rem;">
+              <video class="content-video" style="width: 100%; height: auto; border-radius: 10px;" controls>
+                <source src="./static/videos/5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>   
 </section>  
 
-<section class="section">
+<section class="section" style="background-color: #ffffff;">
   <div class="container is-max-desktop">  
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Results</h2>
+        <h2 class="title is-3">What's Included in the Dataset</h2>
         <div class="content has-text-justified">
+          <ul>
+            <li><strong>Motion Capture Data:</strong> High-quality sequences of two-person interactions in BVH format</li>
+            <li><strong>Facial Expressions:</strong> Detailed facial expression data in ARKit format</li>
+            <li><strong>Facial Templates:</strong> Facial mesh templates for each actor</li>
+            <li><strong>Speech Audio:</strong> Speech audio of two actors for every sequence</li>
+            <li><strong>Scenario Descriptions:</strong> Relationship and actor directions for each scenario</li>
+            <li><strong>Annotation Data:</strong> Labels for {sit, walk, stand} for every frame of every BVH file</li>
+            <li><strong>Rendered Visualizations:</strong> Rendered visualizations of the dataset, with Blender files for body and face</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>   
+</section> 
+
+<section class="section" style="background-color: #f5f5f5;">
+  <div class="container is-max-desktop">  
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">License</h2>
+        <div class="content has-text-justified">
+          <!-- <p>
+            The InterAct dataset is made available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+          </p> -->
           <p>
-            To be written
+            The InterAct dataset is made available under the <a href="">InterAct License</a>.
           </p>
         </div>
       </div>
@@ -195,6 +292,14 @@
     </div>
   </div>
 </footer>
+
+<script>
+  bulmaCarousel.attach('#results-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 2,
+    loop: true,
+  });
+</script>
 
 </body>
 </html>
