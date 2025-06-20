@@ -2,8 +2,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="InterAct: Capture and Modelling of Realistic, Expressive and Interactive Activities between Two Persons in Daily Scenarios">
-  <meta name="keywords" content="Diffusion Models, Motion Dataset, Motion Capture, Motion Generation, Digital Humans, Interactive Motion, Facial Expressions, Yinghao Huang, Leo Ho, Dafei Qin, Mingyi Shi, Taku Komura, Diffusion Probabilistic Models">
+        content="InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios">
+  <meta name="keywords" content="Diffusion Models, Motion Dataset, Motion Capture, Motion Generation, Digital Humans, Interactive Motion, Facial Expressions, Diffusion Probabilistic Models, Leo Ho, Yinghao Huang, Dafei Qin, Mingyi Shi, Wangpok Tse, Wei Liu, Junichi Yamagishi, Taku Komura">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios</title>
   
@@ -24,6 +24,11 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
 
+  <style>
+    .slider-container {
+      min-height: 0 !important; /* Fix carousel slider height */
+    }
+  </style>
 </head>
 <body>
 
@@ -233,7 +238,8 @@
             <li><strong>Speech Audio:</strong> Speech audio of two actors for every sequence</li>
             <li><strong>Scenario Descriptions:</strong> Relationship and actor directions for each scenario</li>
             <li><strong>Annotation Data:</strong> Labels for {sit, walk, stand} for every frame of every BVH file</li>
-            <li><strong>Rendered Visualizations:</strong> Rendered visualizations of the dataset, with Blender files for body and face</li>
+            <li><strong>Rendered Visualizations:</strong> Rendered visualizations of dataset, with Blender files for body and face</li>
+            <li><strong>Additional Facial Dataset:</strong> TIMIT facial expression data in ARKit format for lip accuracy fine-tuning</li>
           </ul>
         </div>
       </div>
@@ -247,11 +253,14 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">License</h2>
         <div class="content has-text-justified">
-          <!-- <p>
-            The InterAct dataset is made available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-          </p> -->
           <p>
-            The InterAct dataset is made available under the <a href="">InterAct License</a>.
+            The InterAct dataset is made available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            <ul>
+              <li><strong>Attribution:</strong> You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+              <li><strong>Non-Commercial:</strong> You may not use the material for commercial purposes.</li>
+              <li><strong>ShareAlike:</strong> If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</li>
+              <li><strong>No additional restrictions:</strong> You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+            </ul>
           </p>
         </div>
       </div>
