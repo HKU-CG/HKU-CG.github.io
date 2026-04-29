@@ -13,8 +13,9 @@ department:
 organizations:
 - name: The University of Hong Kong
 interests:
+- Computer Vision
 - Computer Graphics
-- Physical Simulation
+- Human-Computer Interaction
 social:
 - icon: github
   icon_pack: fab
