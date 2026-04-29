@@ -82,7 +82,7 @@ email: "zhiyang0@connect.hku.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- MPhil Alumni
+- Co-supervised Alumni
 
 
 #any user groups to display on the page
