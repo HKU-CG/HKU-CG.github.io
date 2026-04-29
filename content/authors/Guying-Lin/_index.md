@@ -77,7 +77,7 @@ email: "guyinglin2000@gmail.com"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "Research Assistant Alumni"
 user_groups:
-- Co-supervised Alumni
+- Co-supervised Student Alumni
 
 
 #any user groups to display on the page
