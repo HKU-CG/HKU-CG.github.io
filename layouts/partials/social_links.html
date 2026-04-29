@@ -1,0 +1,34 @@
+<ul class="network-icon" aria-hidden="true">
+    {{ with .Params.personal_homepage }}
+    <li>
+      <a href="{{ . }}" target="_blank" rel="noopener">
+        <i class="fas fa-home"></i>
+      </a>
+    </li>
+    {{ end }}
+
+  {{ range .Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <li>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+        {{ if eq .icon "google-scholar" }}
+          <i class="fas fa-graduation-cap"></i>
+        {{ else }}
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+        {{ end }}
+      </a>
+    </li>
+  {{end}}
+</ul>
