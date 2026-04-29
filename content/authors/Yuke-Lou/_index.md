@@ -18,7 +18,7 @@ weight: 202309
 superuser: false
 
 # Role/position
-role: M.Phil, since Sept. 2023. 
+role: PhD, since Sept. 2023. 
 
 university: HKU
 
