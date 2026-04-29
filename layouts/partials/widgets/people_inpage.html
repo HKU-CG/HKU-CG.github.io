@@ -57,7 +57,6 @@
 
         <div class="portrait-title">
           <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-          {{ with .Params.personal_homepage }}<h3><a href="{{ . }}" target="_blank" rel="noopener"><i class="fas fa-home"></i></a></h3>{{ end }}
           {{ if $show_social }}{{ partial "social_links_plus_university" . }}{{ end }}
           {{ if and $show_department .Params.department }}<h3>{{ delimit .Params.department ", " | markdownify | emojify }}</h3>{{ end }}
           {{ if and $show_projects .Params.projects }}<p class="people-interests">{{ delimit .Params.projects ", " | markdownify | emojify }}</p>{{ end }}
@@ -96,7 +95,6 @@
 
         <div class="portrait-title">
           <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-          {{ with .Params.personal_homepage }}<h3><a href="{{ . }}" target="_blank" rel="noopener"><i class="fas fa-home"></i></a></h3>{{ end }}
           {{ if $show_social }}{{ partial "social_links_plus_university" . }}{{ end }}
           {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
           {{ if and $show_department .Params.department }}<h3>{{ delimit .Params.department ", " | markdownify | emojify }}</h3>{{ end }}
@@ -136,7 +134,6 @@
 
         <div class="portrait-title">
           <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-          {{ with .Params.personal_homepage }}<h3><a href="{{ . }}" target="_blank" rel="noopener"><i class="fas fa-home"></i></a></h3>{{ end }}
           {{ if $show_social }}{{ partial "social_links_plus_university" . }}{{ end }}
           {{ if and $show_department .Params.department }}<h3>{{ delimit .Params.department ", " | markdownify | emojify }}</h3>{{ end }}
           {{ if and $show_projects .Params.projects }}<p class="people-interests">{{ delimit .Params.projects ", " | markdownify | emojify }}</p>{{ end }}
