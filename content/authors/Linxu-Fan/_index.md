@@ -84,7 +84,7 @@ email: "glovelfan@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 # Existing user group: "Principal Investigator", "Research Staff", "Graduate Students", 
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
-#  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
+#  "Master Alumni", "Undergraduate Alumni", "Research Assistant Alumni"
 user_groups:
 - Postdoctoral Alumni
 

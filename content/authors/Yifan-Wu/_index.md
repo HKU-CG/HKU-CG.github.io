@@ -21,5 +21,5 @@ social:
   link: https://github.com/littlecobber
 email: ""
 user_groups:
-- RA Alumni
+- Research Assistant Alumni
 ---
