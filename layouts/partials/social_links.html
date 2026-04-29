@@ -23,7 +23,7 @@
     {{ end }}
     <li>
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
-        {{ if eq .icon "google-scholar" }}
+        {{ if or (eq .icon "google-scholar") (eq .icon "user-graduate") }}
           <i class="fas fa-graduation-cap"></i>
         {{ else }}
           <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>

@@ -32,7 +32,7 @@
           {{ else if in (slice "Utah") $university}}
           <img src="/media/Utah_U.svg" alt="CU" class="svg-icon svg-baseline">
           {{ end }}
-        {{ else if eq .icon "google-scholar" }}
+        {{ else if or (eq .icon "google-scholar") (eq .icon "user-graduate") }}
           <i class="fas fa-graduation-cap"></i>
         {{ else }}
           <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
