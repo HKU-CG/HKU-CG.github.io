@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: https://wenjiawang0312.github.io/
+personal_homepage: https://thorin666.github.io/
 
 projects:
 

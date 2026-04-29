@@ -16,6 +16,7 @@ interests:
 - Computer Vision
 - Computer Graphics
 - Human-Computer Interaction
+personal_homepage: https://liu-jingyuan.github.io/
 social:
 - icon: github
   icon_pack: fab

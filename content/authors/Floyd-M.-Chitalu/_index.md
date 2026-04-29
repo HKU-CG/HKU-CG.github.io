@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: https://www.floydmchitalu.com/
+personal_homepage: https://www.floydmchitalu.com/
 
 # Organizations/Affiliations
 organizations:

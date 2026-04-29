@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: https://zycliao.com
+personal_homepage: https://zycliao.com
 
 projects:
 

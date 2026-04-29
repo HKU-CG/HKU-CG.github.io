@@ -27,7 +27,7 @@ department:
 
 # set this if you want the page to automatically redirect to your personal homepage
 # Otherwise please use default (see bottom of the page)
-# personal_homepage: https://wenjiawang0312.github.io/
+personal_homepage: https://wenjiawang0312.github.io/
 
 projects:
 

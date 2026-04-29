@@ -16,6 +16,7 @@ interests:
 - Computer Graphics
 - 3D Vision
 - Character Animation
+personal_homepage: https://phj128.github.io/
 social:
 - icon: github
   icon_pack: fab

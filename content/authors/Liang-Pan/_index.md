@@ -23,6 +23,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/liangpan99
+personal_homepage: https://liangpan99.github.io/
 email: "liangpan1005@163.com"
 user_groups:
 - Graduate Students
