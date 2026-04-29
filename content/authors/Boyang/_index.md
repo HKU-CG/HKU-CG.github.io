@@ -1,7 +1,7 @@
 ---
-title: Boyang
+title: Yu Boyang
 authors:
-- Boyang
+- Yu Boyang
 names:
 - Boyang
 weight: 202501

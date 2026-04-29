@@ -6,7 +6,7 @@ names:
 - Rui Xu
 weight: 202409
 superuser: false
-role: PhD, since Sept. 2024.
+role: PhD, since Sept. 2024. <br /> Co-supervised by Prof. Wenping Wang.
 university: HKU
 department:
 - Computer Science

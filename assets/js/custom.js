@@ -1,14 +1,7 @@
-/* Custom theme toggle: sun/moon direct switch, default light */
+/* Custom theme toggle: cycle through Light / Dark / Auto with a sun+moon icon */
 (function ($) {
   function updateToggleIcon() {
-    var mode = parseInt(localStorage.getItem('dark_mode') || '0');
-    if (mode === 1) {
-      $('.theme-icon-light').hide();
-      $('.theme-icon-dark').show();
-    } else {
-      $('.theme-icon-light').show();
-      $('.theme-icon-dark').hide();
-    }
+    // No visual state change needed — the sun+moon combo icon is static.
   }
 
   $(document).ready(function () {
@@ -17,20 +10,19 @@
       localStorage.setItem('dark_mode', '0');
     }
 
-    updateToggleIcon();
-
     $('.js-toggle-theme').on('click', function (e) {
       e.preventDefault();
       var mode = parseInt(localStorage.getItem('dark_mode') || '0');
-      if (mode === 1) {
-        // currently dark -> switch to light
-        $('.js-set-theme-light').trigger('click');
-      } else {
-        // currently light (or auto interpreted as light) -> switch to dark
+      if (mode === 0) {
+        // Light -> Dark
         $('.js-set-theme-dark').trigger('click');
+      } else if (mode === 1) {
+        // Dark -> Auto
+        $('.js-set-theme-auto').trigger('click');
+      } else {
+        // Auto (or any other) -> Light
+        $('.js-set-theme-light').trigger('click');
       }
-      // Wait a tick for wowchemy.js to update localStorage, then refresh icon
-      setTimeout(updateToggleIcon, 0);
     });
   });
 })(jQuery);
