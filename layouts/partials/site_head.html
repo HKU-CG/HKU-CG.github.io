@@ -225,6 +225,10 @@
 
   {{ partial "custom_head" . }}
 
+  <style>
+    .network-icon { flex-wrap: nowrap !important; }
+  </style>
+
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 
 </head>
