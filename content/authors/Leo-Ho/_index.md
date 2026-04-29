@@ -18,7 +18,7 @@ weight: 202308
 superuser: false
 
 # Role/position
-role: Research Assistant, since Aug. 2023. 
+role: MPhil, since Aug. 2024. 
 
 department:
 - Computer Science
@@ -87,7 +87,7 @@ email: "leohocs@hku.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Research Assistant
+- Graduate Students
 
 
 #any user groups to display on the page

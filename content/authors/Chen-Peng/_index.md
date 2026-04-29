@@ -87,7 +87,7 @@ email: "xy.lu@transgp.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Research Staff
+- Postdoctoral Alumni
 
 
 #any user groups to display on the page

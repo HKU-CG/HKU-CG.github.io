@@ -12,13 +12,13 @@ names:
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 202209
+weight: -202406
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: MPhil, since Sept. 2022. <br /> Co-supv. by Prof. Wenping Wang.
+role: MPhil, Sept. 2022 - Jun. 2024. <br /> Co-supv. by Prof. Wenping Wang.
 
 university: HKU
 
@@ -77,7 +77,7 @@ email: "guyinglin2000@gmail.com"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Graduate Students
+- MPhil Alumni
 
 
 #any user groups to display on the page

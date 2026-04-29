@@ -177,7 +177,7 @@ abstract_length = 135
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
+plugins_js  = ["custom"]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
@@ -269,7 +269,7 @@ plugins_js  = []
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
   engine = 2
-  api_key = "pk.eyJ1IjoiZ2VuZXRpY2xvZ2ljbGFiIiwiYSI6ImNraHkxNzhwczAxZ2syeWw2eXk1ajFzd3QifQ.OkfUVvBL_nR39T8TtBZetg"
+  api_key = ""
   zoom = 15
 
 ############################

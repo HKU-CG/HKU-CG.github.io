@@ -18,7 +18,7 @@ weight: 202008
 superuser: false
 
 # Role/position
-role: PhD, since Aug. 2020. <br /> Co-supv. by Prof. Wenping Wang.
+role: MPhil, since Aug. 2020. <br /> Co-supv. by Prof. Wenping Wang.
 
 university: HKU
 
@@ -82,7 +82,7 @@ email: "zhiyang0@connect.hku.hk"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Graduate Students
+- MPhil Alumni
 
 
 #any user groups to display on the page

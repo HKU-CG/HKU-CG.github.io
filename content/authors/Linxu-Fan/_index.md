@@ -86,7 +86,7 @@ email: "glovelfan@gmail.com"
 #  "Research Assistant", "Undergraduate Students", ""Postdoctoral Alumni", "PhD Alumni", 
 #  "Master Alumni", "Undergraduate Alumni", "RA Alumni"
 user_groups:
-- Graduate Students
+- Postdoctoral Alumni
 
 
 #any user groups to display on the page
