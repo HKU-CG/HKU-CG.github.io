@@ -226,7 +226,9 @@
   {{ partial "custom_head" . }}
 
   <style>
-    .network-icon { flex-wrap: nowrap !important; }
+    .network-icon { flex-wrap: nowrap !important; white-space: nowrap !important; }
+    .network-icon li { display: inline-block !important; white-space: nowrap !important; margin-right: 6px !important; }
+    .network-icon li:last-of-type { margin-right: 0 !important; }
   </style>
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
