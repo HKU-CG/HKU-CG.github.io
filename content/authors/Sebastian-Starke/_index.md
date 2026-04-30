@@ -39,6 +39,9 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
+- Character Animation
+- Deep Learning
+- Computer Graphics
 
 education:
 
