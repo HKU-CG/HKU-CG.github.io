@@ -18,17 +18,17 @@ interests:
 - Differentiable Physics
 - Cloth Simulation
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:deshan@transgp.hk'
-- icon: google-scholar
-  icon_pack: ai
-  link: 'https://scholar.google.com/citations?user=0X53RucAAAAJ'
 - icon: home
   icon_pack: fas
-  link: 'https://vcg.leeds.ac.uk/profiles/deshan-gong/'
-email: ""
+  link: https://vcg.leeds.ac.uk/profiles/deshan-gong/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=0X53RucAAAAJ
+- icon: envelope
+  icon_pack: fas
+  link: mailto:deshan@transgp.hk
+email: ''
 user_groups:
 - Research Staff
-display_groups:
+display_groups: null
 ---

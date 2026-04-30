@@ -97,6 +97,21 @@ Add the extracted link to the author's `_index.md` under `social:` with:
 
 **Note:** Do **not** use `google-scholar` icon for personal homepages — use `user-graduate` (fas) instead.
 
+#### Social Icon Order
+
+All author `social:` lists **must** follow this exact order:
+
+1. `home` (personal homepage)
+2. `google-scholar`
+3. `github`
+4. `envelope` (email)
+5. Everything else (`orcid`, `university-logo`, `cv`, `linkedin`, `twitter`, etc.)
+
+**Rules:**
+- Only reorder icons that already exist. **Never guess or add missing links** (especially HKU emails).
+- If an icon is missing, skip its position and continue with the next available icon.
+- Do **not** leave `personal_homepage` as a separate field if the author also has a `home` icon in `social:` — the `home` icon in `social:` is sufficient.
+
 #### Avatar Images
 
 - Avatars **must** be named exactly `avatar.jpg` or `avatar.png`.
