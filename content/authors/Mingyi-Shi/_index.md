@@ -29,6 +29,9 @@ education:
     institution: Shandong University
     year: 2017
 social:
+- icon: home
+  icon_pack: fas
+  link: https://rubbly.cn/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=50MVe54AAAAJ&hl=en&oi=ao
