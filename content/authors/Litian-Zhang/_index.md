@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Litong Zhang
+title: Litian Zhang
 
 # Username (this should match the folder name)
 authors:
-- Litong Zhang
+- Litian Zhang
 
 #Author Names (alternative spellings etc)
 names:

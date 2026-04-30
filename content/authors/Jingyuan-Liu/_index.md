@@ -23,10 +23,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/liu-jingyuan
-- icon: envelope
-  icon_pack: fas
-  link: mailto:jingyuan.liu@hku.hk
-email: "jingyuan.liu@hku.hk"
+email: ""
 user_groups:
 - Research Staff
 display_groups:
