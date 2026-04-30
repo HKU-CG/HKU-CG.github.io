@@ -61,6 +61,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:qindfei@connect.hku.hk
+- icon: home
+  icon_pack: fas
+  link: https://dafei-qin.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=3HoB5jEAAAAJ

@@ -229,6 +229,29 @@
     .network-icon { flex-wrap: nowrap !important; white-space: nowrap !important; }
     .network-icon li { display: inline-block !important; white-space: nowrap !important; margin-right: 6px !important; }
     .network-icon li:last-of-type { margin-right: 0 !important; }
+
+    .people-widget { display: flex; flex-wrap: wrap; }
+    .people-person {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .people-person .portrait-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      width: 100%;
+    }
+    .people-person .portrait-title h2 { margin-bottom: 0.3rem; }
+    .people-person .portrait-title h3 { font-size: 0.9rem; margin-bottom: 0.3rem; }
+    .people-person .people-interests {
+      flex-grow: 1;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .people-person .network-icon { margin-top: auto; }
   </style>
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>

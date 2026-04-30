@@ -160,8 +160,28 @@ Output goes to `public/` (gitignored).
 - **YAML indentation**: All `.md` front matter is YAML. Be strict with 2-space indentation.
 - **Special characters in tags**: Tags with `.`, `?`, or non-alphanumeric characters can break the site build. Keep tags simple.
 
+## People Widget Layout
+
+To keep author cards aligned (same height, icons at bottom), the following CSS is injected in `layouts/partials/site_head.html`:
+
+```css
+.people-widget { display: flex; flex-wrap: wrap; }
+.people-person {
+  display: flex; flex-direction: column; align-items: center;
+}
+.people-person .portrait-title {
+  display: flex; flex-direction: column; align-items: center;
+  flex-grow: 1; width: 100%;
+}
+.people-person .people-interests { flex-grow: 1; text-align: center; }
+.people-person .network-icon { margin-top: auto; }
+```
+
+Do **not** add per-widget `<style>` tags in partials — they may not render. Use the global `<style>` block in `site_head.html` instead.
+
 ## Change Safety
 
+- **Do NOT push without explicit user instruction.** Wait for the user to say "push" or similar before committing and pushing changes.
 - Do **not** force-push (`git push -f`) to this repo.
 - After pushing, check the GitHub Actions tab for green ✅ / red ❌ on the commit.
 - Deployment takes a few minutes after CI succeeds.
