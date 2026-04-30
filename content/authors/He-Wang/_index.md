@@ -47,7 +47,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-
+- icon: home
+  icon_pack: fas
+  link: https://drhewang.com/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=BaaPAVYAAAAJ
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
