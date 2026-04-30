@@ -76,6 +76,36 @@ The script will:
 2. Copy `_index.md` from an existing person and modify.
 3. Add the avatar image manually.
 
+### Author Profile Maintenance
+
+#### Google Scholar Links
+
+Most personal academic homepages list a Google Scholar link. The fastest way to find it is to scrape the raw HTML:
+
+```bash
+curl -s -L -A "Mozilla/5.0" <homepage_url> | grep -oiE "scholar\.google\.com/[^\"'<> ]+"
+```
+
+If multiple links appear, the one with `authuser=1` or the first occurrence is usually the profile owner's.
+
+Add the extracted link to the author's `_index.md` under `social:` with:
+```yaml
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=XXXXXX
+```
+
+**Note:** Do **not** use `google-scholar` icon for personal homepages — use `user-graduate` (fas) instead.
+
+#### Avatar Images
+
+- Avatars **must** be named exactly `avatar.jpg` or `avatar.png`.
+- If downloading from a personal page fails due to Cloudflare / bot protection, try using the Kimi image-proxy URL (visible via `FetchURL`), or ask the user for a direct link / file upload.
+- After any image download, verify with:
+  ```bash
+  python3 -c "from PIL import Image; img = Image.open('path'); img.verify(); print(img.size)"
+  ```
+
 ### Adding a Publication
 
 1. Create `content/publication/<YYYY-Venue-Title>/`

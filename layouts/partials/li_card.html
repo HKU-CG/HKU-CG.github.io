@@ -53,6 +53,7 @@
     <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
   </h3>
 
+  {{ if not $resource }}
   {{ with $summary }}
   <a href="{{ $item.RelPermalink }}" class="summary-link">
     <div class="article-style">
@@ -60,6 +61,9 @@
     </div>
   </a>
   {{ end }}
+  {{ end }}
+
+
 
   {{ if $show_buttons }}
   <div class="btn-links">

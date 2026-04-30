@@ -18,7 +18,7 @@ weight: 202301
 superuser: false
 
 # Role/position
-role: PhD, since Jan. 2023. 
+role: PhD, since Jan. 2023 (expected 2026). 
 
 university: HKU
 
@@ -71,6 +71,9 @@ social:
 - icon: user-graduate
   icon_pack: fas
   link: https://wenjiawang0312.github.io/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=-KXrF4cAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/WenjiaWang0312

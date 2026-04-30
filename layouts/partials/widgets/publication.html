@@ -46,7 +46,17 @@
       </div>
 
       <div id="container-publications">
+        {{ $.Scratch.Set "current_year" "" }}
         {{ range .Pages.ByDate.Reverse }}
+
+        {{ $year := .Date.Format "2006" }}
+        {{ if ne $year ($.Scratch.Get "current_year") }}
+        {{ $.Scratch.Set "current_year" $year }}
+        <div class="grid-sizer col-lg-12 isotope-item year-heading-item year-{{ $year }}">
+          <h2 class="pub-year-heading">{{ $year }}</h2>
+          <hr class="pub-year-hr">
+        </div>
+        {{ end }}
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}

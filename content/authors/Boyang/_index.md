@@ -1,9 +1,9 @@
 ---
-title: Yu Boyang
+title: Boyang Yu
 authors:
-- Yu Boyang
+- Boyang Yu
 names:
-- Boyang
+- Boyang Yu
 weight: 202501
 superuser: false
 role: Research Assistant

@@ -18,7 +18,7 @@ weight: 202009
 superuser: false
 
 # Role/position
-role: PhD, since Sep. 2020. 
+role: PhD, since Sep. 2020 (expected 2026). 
 
 university: HKU
 
@@ -63,7 +63,10 @@ social:
   link: mailto:qindfei@connect.hku.hk
 - icon: user-graduate
   icon_pack: fas
-  link: dafei-qin.github.io
+  link: https://dafei-qin.github.io/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=3HoB5jEAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/dafei-qin

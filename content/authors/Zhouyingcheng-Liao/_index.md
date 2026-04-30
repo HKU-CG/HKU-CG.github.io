@@ -66,6 +66,9 @@ social:
 - icon: user-graduate
   icon_pack: fas
   link: https://zycliao.com
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=ldtL6LwAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/zycliao
