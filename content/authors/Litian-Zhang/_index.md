@@ -14,7 +14,7 @@ names:
 
 # This decides the order of people,
 # set it as your start year&month (e.g., 202301)
-weight: 202505
+weight: 202605
 
 # Is this the primary user of the site?
 superuser: false
