@@ -17,6 +17,12 @@ interests:
 - Physical Simulation
 personal_homepage: https://littlecobber.github.io/
 social:
+- icon: home
+  icon_pack: fas
+  link: https://littlecobber.github.io/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=8YSC1isAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/littlecobber
