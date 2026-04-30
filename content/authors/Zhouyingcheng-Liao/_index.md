@@ -63,9 +63,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:zycliao@cs.hku.hk
-- icon: user-graduate
-  icon_pack: fas
-  link: https://zycliao.com
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=ldtL6LwAAAAJ

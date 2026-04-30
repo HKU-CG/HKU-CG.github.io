@@ -61,9 +61,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:he.zhang.cs@gmail.com
-- icon: user-graduate
-  icon_pack: fas
-  link: https://cghezhang.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=enHzd0UAAAAJ&hl=en
