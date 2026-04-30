@@ -26,8 +26,6 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-personal_homepage: https://lujintaozju.github.io/
-
 # Organizations/Affiliations
 organizations:
 - name: University of Hong Kong
@@ -55,12 +53,18 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: home
+  icon_pack: fas
+  link: https://lujintaozju.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=0AwDFzkAAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
   link: https://github.com/lujintaozju
+- icon: envelope
+  icon_pack: fas
+  link: mailto:jtlu@cs.hku.hk
 - icon: university-logo
   icon_pack: Custom_University
   link: https://www.colorado.edu/cs/academics/

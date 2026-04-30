@@ -16,12 +16,20 @@ interests:
 - Computer Graphics
 - 3D Vision
 - Character Animation
-personal_homepage: https://phj128.github.io/
 social:
+- icon: home
+  icon_pack: fas
+  link: https://phj128.github.io/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=gicU38wAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/phj128
-email: ""
+- icon: envelope
+  icon_pack: fas
+  link: mailto:huaijinpi@gmail.com
+email: "huaijinpi@gmail.com"
 user_groups:
 - Graduate Students
 display_groups:

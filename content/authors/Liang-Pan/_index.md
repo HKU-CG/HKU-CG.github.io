@@ -17,13 +17,18 @@ interests:
 - Human-Scene Interaction
 - Reinforcement Learning
 social:
+- icon: home
+  icon_pack: fas
+  link: https://liangpan99.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=B5rO1jcAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/liangpan99
-personal_homepage: https://liangpan99.github.io/
+- icon: envelope
+  icon_pack: fas
+  link: mailto:liangpan1005@163.com
 email: "liangpan1005@163.com"
 user_groups:
 - Graduate Students

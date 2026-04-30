@@ -17,10 +17,12 @@ interests:
 - Microstructure Design
 - Computer Graphics
 social:
+- icon: home
+  icon_pack: fas
+  link: https://timhsue.github.io/
 - icon: github
   icon_pack: fab
   link: https://github.com/TimHsue
-personal_homepage: https://timhsue.github.io/
 email: ""
 user_groups:
 - Graduate Students
