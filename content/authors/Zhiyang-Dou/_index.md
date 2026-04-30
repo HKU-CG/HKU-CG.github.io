@@ -12,13 +12,13 @@ names:
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 202008
+weight: -202504
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: MPhil, since Aug. 2020. <br /> Co-supv. by Prof. Wenping Wang.
+role: MPhil, Aug. 2020 - Apr. 2025. <br /> Co-supv. by Prof. Wenping Wang.
 
 university: HKU
 
