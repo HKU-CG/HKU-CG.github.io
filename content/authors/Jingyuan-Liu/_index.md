@@ -16,12 +16,17 @@ interests:
 - Computer Vision
 - Computer Graphics
 - Human-Computer Interaction
-personal_homepage: https://liu-jingyuan.github.io/
 social:
+- icon: home
+  icon_pack: fas
+  link: https://liu-jingyuan.github.io/
 - icon: github
   icon_pack: fab
   link: https://github.com/liu-jingyuan
-email: ""
+- icon: envelope
+  icon_pack: fas
+  link: mailto:jingyuan.liu@hku.hk
+email: "jingyuan.liu@hku.hk"
 user_groups:
 - Research Staff
 display_groups:

@@ -26,7 +26,7 @@ department:
 - Computer Science
 
 # set this if you want the page to automatically redirect to your personal homepage
-# personal_homepage: https://wenjiawang0312.github.io/
+personal_homepage: https://xiaohanye99.github.io/
 
 projects:
 
@@ -60,15 +60,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-#- icon: user-graduate
-#  icon_pack: fas
-#  link: https://wenjiawang0312.github.io/
+- icon: home
+  icon_pack: fas
+  link: https://xiaohanye99.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=qlCkxlgAAAAJ&hl=zh-CN

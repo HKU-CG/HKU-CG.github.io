@@ -15,6 +15,9 @@ organizations:
 interests:
 - Computer Graphics
 social:
+- icon: home
+  icon_pack: fas
+  link: https://plusultra-maker.github.io/
 - icon: github
   icon_pack: fab
   link: https://github.com/plusultra-maker
