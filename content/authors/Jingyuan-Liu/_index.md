@@ -20,6 +20,9 @@ social:
 - icon: home
   icon_pack: fas
   link: https://liu-jingyuan.github.io/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=zh-CN&user=zn1CdCQAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/liu-jingyuan
