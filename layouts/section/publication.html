@@ -45,6 +45,16 @@
             {{ end }}
           </select>
         </div>
+        <div class="col-auto ml-auto">
+          <div class="btn-group" role="group" aria-label="Publication view toggle">
+            <button type="button" class="btn btn-sm btn-outline-primary active" id="view-citation-btn" onclick="switchPubView('citation')">
+              <i class="fas fa-list"></i> List
+            </button>
+            <button type="button" class="btn btn-sm btn-outline-primary" id="view-card-btn" onclick="switchPubView('card')">
+              <i class="fas fa-th-large"></i> Card
+            </button>
+          </div>
+        </div>
       </div>
 
       <div id="container-publications">
@@ -67,19 +77,45 @@
         {{ end }}
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
-          {{ if eq $.Params.view 1 }}
-            {{ partial "li_list" . }}
-          {{ else if eq $.Params.view 3 }}
-            {{ partial "li_card" . }}
-          {{ else if eq $.Params.view 4 }}
+          <div class="pub-view-citation">
             {{ partial "li_citation" . }}
-          {{ else }}
-            {{ partial "li_compact" . }}
-          {{ end }}
+          </div>
+          <div class="pub-view-card" style="display:none;">
+            {{ partial "li_card" . }}
+          </div>
         </div>
 
         {{ end }}
       </div>
+
+      <script>
+      function switchPubView(view) {
+        const citationEls = document.querySelectorAll('.pub-view-citation');
+        const cardEls = document.querySelectorAll('.pub-view-card');
+        const btnCitation = document.getElementById('view-citation-btn');
+        const btnCard = document.getElementById('view-card-btn');
+        
+        if (view === 'citation') {
+          citationEls.forEach(function(el) { el.style.display = ''; });
+          cardEls.forEach(function(el) { el.style.display = 'none'; });
+          btnCitation.classList.add('active');
+          btnCard.classList.remove('active');
+        } else {
+          citationEls.forEach(function(el) { el.style.display = 'none'; });
+          cardEls.forEach(function(el) { el.style.display = ''; });
+          btnCard.classList.add('active');
+          btnCitation.classList.remove('active');
+        }
+        
+        // Trigger isotope layout update if available
+        if (window.jQuery) {
+          var $container = jQuery('#container-publications');
+          if ($container.data('isotope')) {
+            $container.isotope('layout');
+          }
+        }
+      }
+      </script>
 
     </div>
   </div>

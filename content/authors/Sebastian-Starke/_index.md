@@ -18,7 +18,7 @@ weight: -202201
 superuser: false
 
 # Role/position
-role: PhD Alumni, 2017-2022. Now at Meta
+role: PhD Alumni (University of Edinburgh), 2017-2022. Now at Meta
 
 university: The University of Edinburgh
 

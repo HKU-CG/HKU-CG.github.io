@@ -6,7 +6,7 @@ names:
 - Wei Liu
 weight: 202509
 superuser: false
-role: MPhil, since Sept. 2025.
+role: MPhil, since Sep. 2025.
 university: HKU
 department:
 - Computer Science

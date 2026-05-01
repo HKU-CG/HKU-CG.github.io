@@ -18,7 +18,7 @@ weight: -201401
 superuser: false
 
 # Role/position
-role: PhD and Postdoc Alumni, 2017-2021. Now Assistant Professor at UCL
+role: PhD and Postdoc Alumni (University of Edinburgh), 2017-2021. Now Assistant Professor at UCL
 
 university: The University of Edinburgh
 

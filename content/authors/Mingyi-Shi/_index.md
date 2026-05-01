@@ -6,7 +6,7 @@ names:
 - Mingyi Shi
 weight: 202011
 superuser: false
-role: PhD, since Nov. 2020 (expected 2026).
+role: PhD, Nov. 2020 – 2026 (expected).
 university: HKU
 department:
 - Computer Science

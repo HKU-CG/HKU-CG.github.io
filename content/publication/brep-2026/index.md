@@ -1,16 +1,23 @@
 ---
-title: 'AGIPC: Adaptive In-Solve Algebraic Coarsening for GPU IPC'
+title: 'Autoregressive B-Rep Shape Generation with Parametric Surfaces'
 subtitle:
 summary:
 authors:
-- Xuan Wang
-- Zhaofeng Luo
-- Minchen Li
+- Dafei Qin
+- Rui Xu
+- Zeyu Shen
+- Kaichun Qiao
+- Hongyang Lin
+- Qixuan Zhang
+- Huaijin Pi
+- Lan Xu
+- Jingyi Yu
+- Wenping Wang
 - Taku Komura
-- Kemeng Huang
 
 tags:
-- 'Physics-based Character Animation'
+- '3D Generation'
+- 'CAD'
 
 categories: []
 date: '2026-01-01'

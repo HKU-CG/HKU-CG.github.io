@@ -18,7 +18,7 @@ weight: -201705
 superuser: false
 
 # Role/position
-role: PhD Alumni, 2013-2017. Now at Epic Games 
+role: PhD Alumni (University of Edinburgh), 2013-2017. Now at Epic Games 
 
 university: The University of Edinburgh
 

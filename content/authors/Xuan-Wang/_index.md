@@ -4,9 +4,9 @@ authors:
 - Xuan Wang
 names:
 - Xuan Wang
-weight: 202509
+weight: 202409
 superuser: false
-role: PhD, since Sept. 2025.
+role: PhD, since Sep. 2024.
 university: HKU
 department:
 - Computer Science

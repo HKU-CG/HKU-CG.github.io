@@ -6,7 +6,7 @@ names:
 - Liang Pan
 weight: 202509
 superuser: false
-role: PhD, since Sept. 2025.
+role: PhD, since Sep. 2025.
 university: HKU
 department:
 - Computer Science

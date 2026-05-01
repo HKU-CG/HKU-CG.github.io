@@ -6,7 +6,7 @@ names:
 - He Zhang
 weight: -202204
 superuser: false
-role: PhD, Sept. 2017 - Apr. 2022.
+role: PhD (University of Edinburgh), Sep. 2017 - Apr. 2022.
 university: HKU
 department:
 - Computer Science

@@ -6,7 +6,7 @@ names:
 - Kemeng Huang
 weight: 202209
 superuser: false
-role: PhD, since Sep. 2022 (expected 2026).
+role: PhD, Sep. 2022 – 2026 (expected).
 university: HKU
 department:
 - Computer Science

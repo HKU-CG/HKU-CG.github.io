@@ -18,7 +18,7 @@ weight: 202301
 superuser: false
 
 # Role/position
-role: PhD, since Jan. 2023 (expected 2026). 
+role: PhD, Jan. 2023 – 2026 (expected). 
 
 university: HKU
 
