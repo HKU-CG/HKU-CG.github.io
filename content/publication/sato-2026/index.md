@@ -12,7 +12,7 @@ authors:
 - Jingyi Yu
 - Wenping Wang
 - Taku Komura
-date: '2026-01-01'
+date: '2026-05-01'
 publication_types:
 - '1'
 publication: 'SIGGRAPH 2026'
