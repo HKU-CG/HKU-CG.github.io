@@ -125,8 +125,10 @@ All author `social:` lists **must** follow this exact order:
 
 1. Create `content/publication/<YYYY-Venue-Title>/`
 2. Create `index.md` with front matter and abstract.
-3. Optional: add `featured.jpg`/`featured.png` as thumbnail.
-4. The `publications.bib` at repo root is **not** auto-synced to the site; it's a backup reference file.
+3. Add `featured.jpg`/`featured.png` as thumbnail.
+   - **Primary source**: author's personal homepage (`/img/<project>.png` or similar). **Do NOT use arXiv** as the first choice.
+4. Update `content/talk/` news to include the new paper.
+5. The `publications.bib` at repo root is **not** auto-synced to the site; it's a backup reference file.
 
 ### Moving Someone to Alumni
 
