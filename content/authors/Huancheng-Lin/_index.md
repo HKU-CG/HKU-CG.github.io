@@ -38,6 +38,8 @@ organizations:
 
 interests:
 - Physical Simulation
+- Computer Graphics
+- High Performance Computing
 
 education:
   courses:

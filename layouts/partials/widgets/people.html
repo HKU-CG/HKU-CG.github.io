@@ -46,6 +46,8 @@
       {{ else if $avatar }}
         {{ $avatar_image := $avatar.Fill "270x270 Center" }}
         {{ $src = $avatar_image.RelPermalink }}
+      {{ else }}
+        {{ $src = (resources.Get "media/avatar-placeholder.svg").RelPermalink }}
       {{ end }}
       {{ if $src }}
         {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}

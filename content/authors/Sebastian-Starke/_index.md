@@ -53,6 +53,9 @@ social:
 - icon: home
   icon_pack: fas
   link: https://www.sebastianxstarke.com/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=ScpOkvAAAAAJ&hl=en
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

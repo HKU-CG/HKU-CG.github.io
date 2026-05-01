@@ -56,18 +56,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: home
+  icon_pack: fas
+  link: https://www.floydmchitalu.com/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=_3dKfuoAAAAJ
 - icon: envelope
   icon_pack: fas
   link: mailto:floyd.m.chitalu@gmail.com
-#- icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/Floyd_Chitalu
-# - icon: user-graduate
-#   icon_pack: fas
-#   link: 
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/LamWS
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0001-9489-8592

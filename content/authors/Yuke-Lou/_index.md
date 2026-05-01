@@ -40,6 +40,8 @@ organizations:
 
 interests:
 - Motion Generation
+- Character Animation
+- 3D Generation
 
 education:
   courses:
