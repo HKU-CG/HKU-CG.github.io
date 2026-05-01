@@ -20,7 +20,7 @@ weight: 202605
 superuser: false
 
 # Role/position
-role: PhD, since May 2025.
+role: PhD, since May 2026.
 
 university: HKU
 
