@@ -198,8 +198,8 @@ Do **not** add per-widget `<style>` tags in partials — they may not render. Us
 
 ## Change Safety
 
-- **Do NOT push without explicit user instruction.** Wait for the user to say "push" or similar before committing and pushing changes.
-- Do **not** force-push (`git push -f`) to this repo.
+- **Strict rule: ONLY push when the user explicitly says "push" or similar.** Do not push automatically after every commit. Wait for an explicit instruction.
+- **Before pushing, always check the remote first:** run `git fetch` and `git pull` to merge any remote changes. Do **not** force-push (`git push -f`) to this repo.
 - After pushing, check the GitHub Actions tab for green ✅ / red ❌ on the commit.
 - Deployment takes a few minutes after CI succeeds.
 - Do not delete or rename existing author folders unless updating all publication `authors:` fields that reference them.
