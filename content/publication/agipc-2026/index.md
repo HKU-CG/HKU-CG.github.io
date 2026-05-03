@@ -13,7 +13,7 @@ tags:
 - 'Physics-based Character Animation'
 
 categories: []
-date: '2026-01-01'
+date: '2026-05-01'
 lastmod: 2026-01-01T00:00:00Z
 featured: false
 draft: false

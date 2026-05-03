@@ -9,7 +9,7 @@ authors:
 - Zan Gao
 - Taku Komura
 - Kemeng Huang
-date: '2026-01-01'
+date: '2026-04-01'
 publication_types:
 - '1'
 publication: 'CVPR 2026 (Oral)'

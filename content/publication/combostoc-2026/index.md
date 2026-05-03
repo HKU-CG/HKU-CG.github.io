@@ -19,7 +19,7 @@ tags:
 - '3D Generation'
 
 categories: []
-date: '2026-01-01'
+date: '2026-05-01'
 lastmod: 2026-01-01T00:00:00Z
 featured: false
 draft: false
@@ -32,7 +32,7 @@ image:
 projects: []
 publishDate: '2026-01-01T00:00:00.000000Z'
 publication_types:
-- '1'
+- '2'
 abstract: ''
 publication: 'ACM Transactions on Graphics (SIGGRAPH 2026)'
 publication_short: 'ACM TOG (SIGGRAPH 2026)'

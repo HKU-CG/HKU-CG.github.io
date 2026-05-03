@@ -29,6 +29,9 @@ education:
     institution: Zhejiang University of Technology
     year: 2017
 social:
+- icon: home
+  icon_pack: fas
+  link: https://kemenghuang.github.io/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=g9JBjacAAAAJ&hl=en

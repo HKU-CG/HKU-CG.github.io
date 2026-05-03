@@ -130,6 +130,39 @@ All author `social:` lists **must** follow this exact order:
 4. Update `content/talk/` news to include the new paper.
 5. The `publications.bib` at repo root is **not** auto-synced to the site; it's a backup reference file.
 
+#### Conference Acceptance Timeline (for date sorting)
+
+When multiple papers share the same year, set `date` according to the **approximate acceptance-notification month** so that newer results appear first in `ByDate.Reverse` order. Use the table below as a reference.
+
+| Area | Venue | Accept. (approx.) | Suggested `date` |
+|------|-------|-------------------|------------------|
+| **ML** | ICLR | Jan–Mar | `YYYY-03-01` |
+| | ICML | Apr | `YYYY-04-01` |
+| | NeurIPS | Sep | `YYYY-09-01` |
+| **CV** | CVPR | Feb–Mar | `YYYY-03-01` |
+| | ICCV | Jun–Jul | `YYYY-07-01` |
+| | ECCV | Jun–Jul | `YYYY-07-01` |
+| | 3DV | Nov | `YYYY-11-01` |
+| **CG** | SIGGRAPH | Mar–Apr | `YYYY-04-01` |
+| | SIGGRAPH Asia | Jul–Aug | `YYYY-08-01` |
+| | Eurographics | Dec–Jan | `YYYY-01-01` |
+| | SGP | Mar / May | `YYYY-03-01` or `YYYY-05-01` |
+| | IEEE VIS | Jun–Jul | `YYYY-07-01` |
+| | SCA | May | `YYYY-05-01` |
+| **Robotics** | RSS | Apr–May | `YYYY-05-01` |
+| | ICRA | Jan–Feb | `YYYY-02-01` |
+| | IROS | Jun–Jul | `YYYY-07-01` |
+| | CoRL | Aug–Sep | `YYYY-09-01` |
+| **AI/NLP** | AAAI | Nov | `YYYY-11-01` |
+| | IJCAI | Apr | `YYYY-04-01` |
+| | ACL | May | `YYYY-05-01` |
+| | EMNLP | Aug | `YYYY-08-01` |
+
+**Rules:**
+- If a venue is not listed, use its actual acceptance month.
+- Preprints / arXiv papers should use the **first public release month** (or keep `YYYY-01-01` if unknown).
+- Journal-only papers (e.g., pure TOG without SIGGRAPH presentation) can use `YYYY-01-01` or the official publication month.
+
 ### Moving Someone to Alumni
 
 - Change `user_groups` to the appropriate `* Alumni` category.
