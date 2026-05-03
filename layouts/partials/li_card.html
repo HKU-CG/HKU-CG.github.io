@@ -43,9 +43,8 @@
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
-  {{ $image := $resource.Fit "600x400" }}
   <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
+      <img src="{{ $resource.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
   </a>
   {{end}}
 
