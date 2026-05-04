@@ -13,10 +13,18 @@ department:
 organizations:
 - name: The University of Hong Kong
 interests:
-- Physics-based Simulation
-- GPU Simulation
+- Physical Simulation
+- GPU Algorithms
 social:
-email: ""
+- icon: home
+  icon_pack: fas
+  link: https://iridescent-xuan.github.io/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/Iridescent-Xuan
+- icon: envelope
+  icon_pack: fas
+  link: mailto:xuan-wang@connect.hku.hk
 user_groups:
 - Graduate Students
 display_groups:
