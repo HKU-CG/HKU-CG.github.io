@@ -1,0 +1,4 @@
+{{ $pub := . | default "" }}
+{{ $pub = replaceRE "(?i)Oral" "<span class='badge-oral'>Oral</span>" $pub }}
+{{ $pub = replaceRE "(?i)(Best Paper Candidate)" "<span class='badge-best'>$1</span>" $pub }}
+{{ $pub | markdownify }}

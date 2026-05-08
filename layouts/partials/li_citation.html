@@ -22,9 +22,9 @@
   ({{- .Date.Format "2006" -}}).
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
   {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}}.
+  {{ partial "format_publication" .Params.publication_short }}.
   {{ else if .Params.publication }}
-  {{- .Params.publication | markdownify -}}.
+  {{ partial "format_publication" .Params.publication }}.
   {{ end }}
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
 
@@ -36,9 +36,9 @@
   </span>
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
   {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}},
+  {{ partial "format_publication" .Params.publication_short }},
   {{ else if .Params.publication }}
-  {{- .Params.publication | markdownify -}},
+  {{ partial "format_publication" .Params.publication }},
   {{ end }}
   {{- .Date.Format "2006" -}}.
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
