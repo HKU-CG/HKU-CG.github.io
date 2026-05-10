@@ -9,6 +9,33 @@ This is the **HKU Computer Graphics Lab (CGVU)** group website, built with [Hugo
 - **Theme**: Wowchemy via Hugo Modules (`go.mod`)
 - **Deployment**: GitHub Actions → GitHub Pages
 
+## Agent Session Principles
+
+These are high-level rules to minimize context loss across sessions.
+
+### 1. Always check `git status` first
+Before editing anything, run `git status` to see if there are uncommitted changes left by previous sessions. Do not blindly stage and commit — understand what you are about to push.
+
+### 2. The site is English-only
+All user-visible content (lab intro, publication abstracts, news, people profiles) must be in **English**. Do not write Chinese into any `.md` file under `content/`.
+
+### 3. Distinguish "Lab intro" from "PI profile"
+- `content/authors/admin/_index.md` = **Lab-wide** intro + recruitment info.
+- `content/authors/Taku-Komura/_index.md` = **Personal** PI profile.
+Do not mix the two. Update the lab intro when the user asks about "our research" or "website description"; update the PI profile only when asked about Taku's personal page.
+
+### 4. Commit scope awareness
+When the user says "push", the working tree may contain changes from previous sessions. Make sure the commit message describes **all** staged changes, not just the file you touched last. If unrelated changes exist, ask the user whether to include them or stash them.
+
+### 5. The user often dictates via voice input in Chinese
+- Expect homophones and near-homophone typos (e.g., "NUS" → "news").
+- Expect **Chinese-English mixed input**: professional terms are usually spoken in English while the rest is in Chinese (e.g., "中oral" means "中 [了] Oral", "pub" means "publication").
+- Do not over-analyze literal spellings. Infer the intended meaning from **context**.
+- If still ambiguous after 1–2 seconds of thought, **ask a single concise clarifying question** rather than debating internally.
+
+### 6. Keep AGENTS.md focused on "cross-session memory"
+Only add rules that future sessions need to remember (conventions, constraints, current contact lists). Do not add step-by-step tutorials that are already in `README.md`.
+
 ## Key Technology Details
 
 - **No git submodules**: Despite the presence of `.gitmodules`, the theme is managed via **Hugo Modules** (`go.mod`). The `.gitmodules` file is a legacy artifact and can be ignored.
@@ -127,8 +154,22 @@ All author `social:` lists **must** follow this exact order:
 2. Create `index.md` with front matter and abstract.
 3. Add `featured.jpg`/`featured.png` as thumbnail.
    - **Primary source**: author's personal homepage (`/img/<project>.png` or similar). **Do NOT use arXiv** as the first choice.
-4. Update `content/talk/` news to include the new paper.
+4. **Update `content/talk/` news** to include the new paper. A publication is **not complete** until the corresponding news entry exists.
 5. The `publications.bib` at repo root is **not** auto-synced to the site; it's a backup reference file.
+
+#### Oral / Award Annotations
+
+When a paper receives special recognition, append it in parentheses after the venue in the `publication:` field:
+
+- Oral: `'CVPR 2025 (Oral)'`
+- Highlight: `'NeurIPS 2025 (Highlight)'`
+- Spotlight: `'ICLR 2025 (Spotlight)'`
+- Best Paper Candidate: `'CVPR 2026 (Oral, Best Paper Candidate)'`
+
+**Rules:**
+- Always wrap special awards in parentheses.
+- Do **not** write `'ICCV 2021 Oral'` (without parentheses) — fix legacy entries to the parenthesized form.
+- Only include awards that are officially announced by the venue (Oral, Highlight, Spotlight, Best Paper, Best Paper Candidate). Do not invent categories.
 
 #### Conference Acceptance Timeline (for date sorting)
 
@@ -174,6 +215,18 @@ When multiple papers share the same year, set `date` according to the **approxim
 - `content/authors/admin/_index.md` controls the lab intro text on the homepage.
 - `content/People/alumni.md` defines which alumni groups are displayed and their order.
 - `content/People/people.md` defines the current members display.
+- Publication dates follow the **Conference Acceptance Timeline** (see table above). This controls reverse-chronological ordering on the site.
+
+#### Lab Intro & Recruitment
+
+- `content/authors/admin/_index.md` controls **both** the lab intro text **and** the recruitment section on the homepage.
+- **Research directions**: Use broad domains (e.g., *physical simulation*, *humanoid robotics*, *3D vision*) rather than narrow technical keywords. Do not copy-paste from old descriptions like "physically-based animation and the application of machine learning techniques for animation synthesis" without checking recent publications.
+- **Recruitment contacts**: If adding/changing contact emails for MPhil / PhD / RA / collaboration inquiries, append them to the same paragraph. Current contacts:
+  - `taku@cs.hku.hk`
+  - `wwj2022@connect.hku.hk`
+  - `zliao@connect.hku.hk`
+  - `kmhuang@connect.hku.hk`
+- **Copy style**: Avoid repetitive "or" lists (e.g., "A, or B, or C"). Prefer: "Please feel free to reach out to any of us: ..." or "Please contact us at the following emails: ..."
 
 ## Local Development
 
@@ -192,7 +245,14 @@ bash view.sh
 hugo server --baseURL http://localhost:1313/ --disableFastRender --printI18nWarnings
 ```
 
-Site will be at **http://localhost:1313/**.
+`view.sh` supports custom ports via the `PORT` or `port` environment variable (default is `1313`):
+
+```bash
+PORT=3000 bash view.sh
+port=3000 bash view.sh
+```
+
+Site will be at **http://localhost:1313/** by default.
 
 ### Build (dry-run)
 

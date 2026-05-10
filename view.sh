@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PORT="${PORT:-1313}"
+PORT="${PORT:-${port:-1313}}"
 URL="http://localhost:${PORT}/"
 
 # Use China Go module proxy to avoid GitHub TLS issues
