@@ -15,7 +15,9 @@ organizations:
 interests:
 - Character Animation
 social:
-email: ""
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=xIdQPe8AAAAJ
 user_groups:
 - Graduate Students
 display_groups:
