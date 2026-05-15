@@ -38,7 +38,7 @@ social:
   link: https://github.com/dafei-qin
 - icon: envelope
   icon_pack: fas
-  link: mailto:qindfei@connect.hku.hk
+  link: mailto:qindafei@connect.hku.hk
 email: qindafei@connect.hku.hk
 user_groups:
 - Graduate Students
