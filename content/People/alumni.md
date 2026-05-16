@@ -26,7 +26,7 @@ subtitle = ""
   show_projects = true
 
   # Show user's department? (true/false)
-  show_department = true
+  show_department = false
 
 [design.background]
   # Apply a background color, gradient, or image.

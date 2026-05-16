@@ -12,13 +12,13 @@ names:
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 202309
+weight: -202509
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Postdoc, since Sep. 2023. 
+role: Postdoc, Sept. 2023 – Sept. 2025. 
 
 department:
 - Computer Science

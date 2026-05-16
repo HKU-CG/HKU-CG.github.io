@@ -33,6 +33,9 @@ When the user says "push", the working tree may contain changes from previous se
 - Do not over-analyze literal spellings. Infer the intended meaning from **context**.
 - If still ambiguous after 1–2 seconds of thought, **ask a single concise clarifying question** rather than debating internally.
 
+### 7. NEVER push without explicit instruction
+Strict rule: **ONLY push when the user explicitly says "push" or similar.** Do not push automatically after making changes. After editing, show the user the diff and wait for an explicit push instruction before executing `git push`.
+
 ### 6. Keep AGENTS.md focused on "cross-session memory"
 Only add rules that future sessions need to remember (conventions, constraints, current contact lists). Do not add step-by-step tutorials that are already in `README.md`.
 

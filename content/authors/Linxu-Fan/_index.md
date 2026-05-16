@@ -12,13 +12,13 @@ names:
 
 # This decides the order of people, 
 # set it as your start year&month (e.g., 202301) 
-weight: 201911
+weight: -202412
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PHD, since Nov. 2019. 
+role: Postdoc, 2023 – 2024. 
 
 university: University of Edinburgh
 
