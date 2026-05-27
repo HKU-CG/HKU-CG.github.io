@@ -31,4 +31,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'ACM TOG (SIGGRAPH 2025)'
+url_project: "https://lujintaozju.github.io/publications/CHOICE/"
 ---

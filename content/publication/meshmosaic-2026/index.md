@@ -37,4 +37,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'CVPR 2026'
+url_project: "https://xrvitd.github.io/MeshMosaic/index.html"
 ---

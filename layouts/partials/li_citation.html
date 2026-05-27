@@ -26,7 +26,13 @@
   {{ else if .Params.publication }}
   {{ partial "format_publication" .Params.publication }}.
   {{ end }}
-  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+  {{ if .Params.notes }}
+  <span class="text-muted" style="font-size: 0.85rem;"><em>{{ .Params.notes | safeHTML }}</em></span>
+  {{ end }}
+  {{ $links := trim (partial "page_links" (dict "page" . "is_list" 1)) " \n\r\t" }}
+  {{ if $links }}
+  <p>{{ $links | safeHTML }}</p>
+  {{ end }}
 
   {{/* MLA Style */}}
   {{ else }}
@@ -41,7 +47,10 @@
   {{ partial "format_publication" .Params.publication }},
   {{ end }}
   {{- .Date.Format "2006" -}}.
-  <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+  {{ $links := trim (partial "page_links" (dict "page" . "is_list" 1)) " \n\r\t" }}
+  {{ if $links }}
+  <p>{{ $links | safeHTML }}</p>
+  {{ end }}
 
   {{ end }}
 </div>

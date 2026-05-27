@@ -32,4 +32,5 @@ publication_types:
 - '3'
 abstract: ''
 publication: 'arXiv 2025'
+url_project: "https://thorin666.github.io/projects/ZeroHOI"
 ---

@@ -33,4 +33,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'SCA 2025'
+url_project: "https://hku-cg.github.io/interact/"
 ---

@@ -13,4 +13,6 @@ date: '2026-04-01'
 publication_types:
 - '1'
 publication: 'CVPR 2026 (Oral, Best Paper Candidate)'
+url_project: "https://github.com/dongss414/SmokeSVD"
+
 ---

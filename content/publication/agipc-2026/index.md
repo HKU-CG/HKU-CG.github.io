@@ -29,4 +29,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'SIGGRAPH 2026'
+url_project: "https://github.com/KemengHuang/Adaptive-GIPC"
 ---

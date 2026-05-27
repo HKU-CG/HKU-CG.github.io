@@ -36,4 +36,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'CVPR 2026'
+url_project: "https://wenjiawang0312.github.io/projects/embodmocap/"
 ---

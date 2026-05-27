@@ -36,4 +36,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'SIGGRAPH 2026'
+
 ---

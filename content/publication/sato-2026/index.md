@@ -16,4 +16,6 @@ date: '2026-05-01'
 publication_types:
 - '1'
 publication: 'SIGGRAPH 2026'
+url_project: "https://ruixu.me/html/SATO/index.html"
+
 ---

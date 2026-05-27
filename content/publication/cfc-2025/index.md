@@ -25,8 +25,8 @@ doi: '10.1145/3763318'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2025)*
-publication_short: In *SIGGRAPH Asia 2025*
+publication: In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2025)
+publication_short: In SIGGRAPH Asia 2025
 
 abstract: |
   Humans possess the ability to master a wide range of motor skills, using which they can quickly and flexibly adapt to the surrounding environment. Despite recent progress in replicating such versatile human motor skills, existing research often oversimplifies or inadequately captures the complex interplay between human body movements and highly dynamic environments, such as interactions with fluids. In this paper, we present a world model for Character-Fluid Coupling (CFC) for simulating human-fluid interactions via two-way coupling. We introduce a two-level world model which consists of a Physics-Informed Neural Network (PINN)-based model for fluid dynamics and a rigid body world model capturing body dynamics under various external forces. This hierarchical world model adeptly predicts the dynamics of fluid and its influence on rigid bodies, sidestepping the computational burden of fluid simulation and providing policy gradients for efficient policy training. Once trained, our system can control characters to complete high-level tasks while adaptively responding to environmental changes. We also present that the fluid initiates emergent behaviors of the characters, enhancing motion diversity and interactivity. Extensive experiments underscore the effectiveness of CFC, demonstrating its ability to produce high-quality, realistic human-fluid interaction animations.

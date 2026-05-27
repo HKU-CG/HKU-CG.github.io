@@ -6,7 +6,7 @@ names:
 - Bowen Ren
 weight: 202511
 superuser: false
-role: Research Assistant, since Nov. 2025.
+role: Research Assistant, since Nov. 2025. Incoming PhD Student.
 university: HKU
 department:
 - Computer Science

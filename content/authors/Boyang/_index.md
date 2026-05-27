@@ -6,7 +6,7 @@ names:
 - Boyang Yu
 weight: 202501
 superuser: false
-role: Research Assistant
+role: Research Assistant, Incoming PhD Student
 university: HKU
 department:
 - Computer Science

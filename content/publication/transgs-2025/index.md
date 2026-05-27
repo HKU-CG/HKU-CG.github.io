@@ -35,4 +35,5 @@ publication_types:
 - '2'
 abstract: ''
 publication: 'IEEE TPAMI 2025'
+url_project: "https://dafei-qin.github.io/TransGS/"
 ---

@@ -2,13 +2,13 @@
 title: 'EgoGrasp: World-Space Hand-Object Interaction Estimation from Egocentric Videos'
 authors:
 - Hongming Fu
-- Wenjia Wang
+- Wenjia Wang†
 - Xiaozhen Qiao
 - Rolandos Alexandros Potamias
 - Taku Komura
 - Shuo Yang
 - Zheng Liu
-- Bo Zhao
+- Bo Zhao†
 
 date: '2026-02-01T00:00:00Z'
 

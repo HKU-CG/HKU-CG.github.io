@@ -9,6 +9,17 @@ This is the **HKU Computer Graphics Lab (CGVU)** group website, built with [Hugo
 - **Theme**: Wowchemy via Hugo Modules (`go.mod`)
 - **Deployment**: GitHub Actions → GitHub Pages
 
+## New Agent Quick Start
+
+Read `AGENTS.md` first; it is more current than `README.md` for agent work.
+
+1. Run `git status --short --branch` before editing.
+2. For people/profile tasks, read `Adding a Person`, `Author Profile Maintenance`, and `Moving Someone to Alumni`.
+3. For publication tasks, read `Adding a Publication`, `Oral / Award Annotations`, and `Conference Acceptance Timeline`.
+4. For homepage/lab intro tasks, edit `content/authors/admin/_index.md`, not Taku's personal profile.
+5. For local preview, run `bash view.sh`; it auto-selects the next free port if the requested port is busy.
+6. Do not rely on `README.md` for exact paths; some legacy paths there are stale.
+
 ## Agent Session Principles
 
 These are high-level rules to minimize context loss across sessions.
@@ -33,10 +44,10 @@ When the user says "push", the working tree may contain changes from previous se
 - Do not over-analyze literal spellings. Infer the intended meaning from **context**.
 - If still ambiguous after 1–2 seconds of thought, **ask a single concise clarifying question** rather than debating internally.
 
-### 7. NEVER push without explicit instruction
+### 6. NEVER push without explicit instruction
 Strict rule: **ONLY push when the user explicitly says "push" or similar.** Do not push automatically after making changes. After editing, show the user the diff and wait for an explicit push instruction before executing `git push`.
 
-### 6. Keep AGENTS.md focused on "cross-session memory"
+### 7. Keep AGENTS.md focused on "cross-session memory"
 Only add rules that future sessions need to remember (conventions, constraints, current contact lists). Do not add step-by-step tutorials that are already in `README.md`.
 
 ## Key Technology Details
@@ -255,7 +266,9 @@ PORT=3000 bash view.sh
 port=3000 bash view.sh
 ```
 
-Site will be at **http://localhost:1313/** by default.
+If the requested port is already in use, `view.sh` automatically increments to the next available port and prints the actual preview URL. It also prepends common local binary paths (`$HOME/miniconda3/bin`, `$HOME/.local/bin`) before checking for `hugo` and `go`.
+
+Site will be at **http://localhost:1313/** by default unless that port is busy.
 
 ### Build (dry-run)
 

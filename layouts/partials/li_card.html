@@ -51,12 +51,6 @@
   <h3 class="article-title mb-1 mt-3">
     <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
   </h3>
-  {{ if $item.Params.publication }}
-  <div class="article-publication mb-2" style="font-size: 0.9rem; color: #666;">
-    {{ partial "format_publication" $item.Params.publication }}
-  </div>
-  {{ end }}
-
   {{ if not $resource }}
   {{ with $summary }}
   <a href="{{ $item.RelPermalink }}" class="summary-link">
@@ -70,9 +64,12 @@
 
 
   {{ if $show_buttons }}
+  {{ $links := trim (partial "page_links" (dict "page" $item "is_list" 1)) " \n\r\t" }}
+  {{ if $links }}
   <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ $links | safeHTML }}
   </div>
+  {{ end }}
   {{ end }}
 
 </div>

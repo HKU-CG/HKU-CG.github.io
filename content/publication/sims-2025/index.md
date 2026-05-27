@@ -33,4 +33,5 @@ publication_types:
 - '1'
 abstract: ''
 publication: 'ICCV 2025'
+url_project: "https://wenjiawang0312.github.io/projects/sims/"
 ---

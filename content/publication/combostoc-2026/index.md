@@ -35,5 +35,6 @@ publication_types:
 - '2'
 abstract: ''
 publication: 'ACM Transactions on Graphics (SIGGRAPH 2026)'
+url_project: "https://xrvitd.github.io/ComboStoc/"
 publication_short: 'ACM TOG (SIGGRAPH 2026)'
 ---

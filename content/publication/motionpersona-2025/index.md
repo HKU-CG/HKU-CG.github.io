@@ -32,4 +32,5 @@ publication_types:
 - '3'
 abstract: ''
 publication: 'arXiv 2025'
+url_project: "https://motionpersona25.github.io/"
 ---
