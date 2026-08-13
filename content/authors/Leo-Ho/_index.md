@@ -12,8 +12,8 @@ department:
 organizations:
 - name: University of Hong Kong
 interests:
-- Digital Humans
-- Motion Synthesis
+- Multi-Actor Generation
+- Motion Capture
 education:
   courses:
   - course: BEng in Computer Science
@@ -23,13 +23,16 @@ education:
     institution: University of Hong Kong
     year: 2022
 social:
+- icon: home
+  icon_pack: fas
+  link: https://www.leoho.net
 - icon: github
   icon_pack: fab
   link: https://github.com/leohku
 - icon: envelope
   icon_pack: fas
-  link: mailto:leohocs@hku.hk
-email: leohocs@hku.hk
+  link: mailto:leoh@connect.hku.hk
+email: leoh@connect.hku.hk
 user_groups:
 - Graduate Students
 display_groups: null
