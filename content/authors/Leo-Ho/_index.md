@@ -26,6 +26,9 @@ social:
 - icon: home
   icon_pack: fas
   link: https://www.leoho.net
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=u2ydbP8AAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/leohku
