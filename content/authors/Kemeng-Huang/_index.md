@@ -6,7 +6,7 @@ names:
 - Kemeng Huang
 weight: 202209
 superuser: false
-role: PhD, Sep. 2022 – 2027 (expected).
+role: PhD, Sep. 2022 – Dec. 2026 (expected).
 university: HKU
 department:
 - Computer Science
@@ -21,7 +21,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: The University of Hong Kong
-    year: 2027
+    year: 2026
   - course: MSc in Software Engineering
     institution: East China Normal University
     year: 2020
