@@ -64,5 +64,8 @@
       </div>
     </div>
     {{ end }}
+    {{ if eq . "Research Assistant" }}
+      {{ partial "widgets/joint_lab.html" (dict "root" $ "page" $page) }}
+    {{ end }}
     {{ end }}
   </div>

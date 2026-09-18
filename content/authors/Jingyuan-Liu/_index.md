@@ -22,7 +22,7 @@ social:
   link: https://liu-jingyuan.github.io/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?hl=zh-CN&user=zn1CdCQAAAAJ
+  link: https://scholar.google.com/citations?user=0SUnAMYAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/liu-jingyuan

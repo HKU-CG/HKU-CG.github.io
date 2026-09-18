@@ -4,9 +4,9 @@ authors:
 - Boyang Yu
 names:
 - Boyang Yu
-weight: 202501
+weight: 202608
 superuser: false
-role: Research Assistant, Incoming PhD Student
+role: PhD, since Aug. 2026.
 university: HKU
 department:
 - Computer Science
@@ -23,6 +23,6 @@ social:
   link: https://github.com/plusultra-maker
 email: ""
 user_groups:
-- Research Assistant
+- Graduate Students
 display_groups:
 ---

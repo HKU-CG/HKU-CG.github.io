@@ -7,6 +7,10 @@ names:
 weight: -202401
 superuser: false
 role: Research Assistant
+joint_lab_role: RA
+joint_lab_order: 2
+joint_lab_identity: RA
+joint_lab_intro: Computer Graphics, Physical Simulation
 university: HKU
 department:
 - Computer Science
@@ -22,7 +26,7 @@ social:
   link: https://littlecobber.github.io/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=8YSC1isAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=UruMKUkAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/littlecobber

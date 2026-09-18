@@ -69,7 +69,7 @@ social:
   link: https://thorin666.github.io/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=iHWtrEAAAAAJ
+  link: https://scholar.google.com/citations?user=za7xQWgAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/thorin666

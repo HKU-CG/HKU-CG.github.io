@@ -1,0 +1,75 @@
+{{- $authors := where site.Pages "Section" "authors" -}}
+{{- $members := where $authors "Params.joint_lab_role" "!=" nil -}}
+{{- if $members -}}
+<div class="col-12 joint-lab-section">
+  <div class="joint-lab-header">
+    <div class="joint-lab-brand">
+      <a class="joint-lab-logo" href="https://mirod.ai/" target="_blank" rel="noopener" aria-label="Miro Dynamics">
+        <img src="{{ "media/mirod-logo-horizontal.svg" | relURL }}" alt="Miro Dynamics" decoding="async">
+      </a>
+      <div class="joint-lab-header-copy">
+        <h2>Miro Dynamics - HKU CGVU Joint Lab</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="joint-lab-content">
+    {{- range $role := slice "Lead" "RA" "Postgraduate" "JuniorRA" -}}
+      {{- $role_members := where $members "Params.joint_lab_role" $role -}}
+      {{- if eq $role "Postgraduate" -}}
+        {{- $phd_members := where $members "Params.joint_lab_role" "PhD" -}}
+        {{- $mphil_members := where $members "Params.joint_lab_role" "MPhil" -}}
+        {{- $role_members = $phd_members | append $mphil_members -}}
+      {{- end -}}
+      {{- if $role_members -}}
+        {{- $sorted_members := sort $role_members "Params.joint_lab_order" -}}
+        {{- $role_count := len $sorted_members -}}
+        {{- $role_label := $role -}}
+        {{- if eq $role "Lead" }}{{ $role_label = "Joint Lab Leadership" }}{{ end -}}
+        {{- if eq $role "RA" }}{{ $role_label = "Research Assistant" }}{{ end -}}
+        {{- if eq $role "Postgraduate" }}{{ $role_label = "Graduate Students" }}{{ end -}}
+        {{- if eq $role "JuniorRA" }}{{ $role_label = "Junior Research Assistant" }}{{ end -}}
+        <section class="joint-lab-role">
+          <div class="joint-lab-role-heading">
+            <h3>{{ $role_label }}</h3>
+          </div>
+
+          <div class="joint-lab-people joint-lab-people-count-{{ $role_count }}">
+            {{- range $sorted_members -}}
+              {{- $member := . -}}
+              {{- $avatar := (.Resources.ByType "image").GetMatch "*avatar*" -}}
+              {{- $src := "/media/avatar-placeholder.png" -}}
+              {{- if site.Params.avatar.gravatar -}}
+                {{- $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) -}}
+              {{- else if $avatar -}}
+                {{- $src = ($avatar.Fill "270x270 Center").RelPermalink -}}
+              {{- end -}}
+              <article class="joint-lab-person">
+                <a href="{{ .RelPermalink }}">
+                  <img class="avatar avatar-circle" src="{{ $src }}" alt="{{ .Title }}">
+                </a>
+                <div class="joint-lab-person-info">
+                  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                  {{ with .Params.joint_lab_identity }}
+                    <p class="joint-lab-person-identity">{{ . | markdownify | emojify }}</p>
+                  {{ end }}
+                  {{ with .Params.joint_lab_intro }}
+                    <p class="joint-lab-person-intro">{{ . | markdownify | emojify }}</p>
+                  {{ else }}
+                    {{ with .Params.interests }}
+                      <p class="joint-lab-person-intro">{{ delimit . ", " | markdownify | emojify }}</p>
+                    {{ end }}
+                  {{ end }}
+                  {{ with $member.Params.social }}
+                    {{ partial "social_links_plus_university" $member }}
+                  {{ end }}
+                </div>
+              </article>
+            {{- end -}}
+          </div>
+        </section>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}

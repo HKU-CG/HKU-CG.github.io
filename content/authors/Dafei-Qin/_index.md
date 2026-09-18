@@ -6,7 +6,7 @@ names:
 - Dafei Qin
 weight: 202009
 superuser: false
-role: PhD, Sep. 2020 – 2026 (expected).
+role: PhD, Sep. 2020 – Jun. 2026.
 university: HKU
 department:
 - Computer Science
@@ -22,7 +22,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: University of Hong Kong
-    year: 2025 (expected)
+    year: 2026
   - course: BSc in Electronic Enginnering
     institution: Tsinghua University
     year: 2020

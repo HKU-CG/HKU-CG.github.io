@@ -7,6 +7,9 @@ names:
 weight: 202301
 superuser: false
 role: PhD, since Jan. 2023.
+joint_lab_role: Lead
+joint_lab_order: 1
+joint_lab_identity: Joint Lab Director
 university: HKU
 department:
 - Computer Science
@@ -16,8 +19,8 @@ organizations:
 - name: University of Hong Kong
   url: ''
 interests:
-- Neural Cloth Simulation
 - Character Animation
+- Embodied AI
 education:
   courses:
   - course: PhD in Computer Science

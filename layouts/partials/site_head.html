@@ -253,6 +253,247 @@
     }
     .people-person .network-icon { margin-top: auto; }
 
+    .joint-lab-section {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 1.5rem;
+      padding: 0.5rem;
+      overflow: hidden;
+      border: 1px solid #d8e5ea;
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 12px 28px rgba(27, 58, 72, 0.08);
+    }
+    .joint-lab-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.75rem;
+      padding: 1.25rem;
+      border: 1px solid #dbe7ec;
+      border-radius: 16px;
+      background: #f2f7f9;
+      color: #173546;
+      text-align: center;
+    }
+    .joint-lab-brand {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .joint-lab-logo {
+      display: flex;
+      flex: 0 0 auto;
+      width: 11rem;
+      min-height: 3.75rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem 1rem;
+      border: 1px solid #dbe7ec;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 5px 14px rgba(27, 58, 72, 0.08);
+    }
+    .joint-lab-logo img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .joint-lab-header-copy {
+      min-width: 0;
+      text-align: center;
+    }
+    .joint-lab-header h2 {
+      margin: 0;
+      color: #173546;
+      font-size: 1.25rem;
+      line-height: 1.25;
+    }
+    .joint-lab-content {
+      padding: 0.85rem 0.25rem 0.35rem;
+      background: #fff;
+    }
+    .joint-lab-role {
+      margin-bottom: 0.75rem;
+    }
+    .joint-lab-role-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin: 0 0 0.45rem;
+      padding: 0 0.5rem;
+      border-bottom: 1px solid #e5edf0;
+    }
+    .joint-lab-role-heading h3 {
+      margin: 0 0 0.45rem;
+      font-size: 1rem;
+    }
+    .joint-lab-people {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+    .joint-lab-person {
+      display: flex;
+      min-width: 0;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .joint-lab-person > a {
+      display: block;
+      width: 100%;
+    }
+    .joint-lab-person .avatar {
+      width: 80%;
+      max-width: 150px;
+      height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border: 4px solid #eef6f7;
+      box-shadow: 0 4px 12px rgba(27, 58, 72, 0.1);
+    }
+    .joint-lab-person-info {
+      display: flex;
+      width: 100%;
+      min-height: 4.5rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    .joint-lab-person-info h4 {
+      margin: 0.35rem 0 0.15rem;
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+    .joint-lab-person-info h4 a {
+      color: inherit;
+    }
+    .joint-lab-person-identity {
+      margin: 0 0 0.2rem;
+      color: #0f766e;
+      font-size: 0.8rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    .joint-lab-person-intro {
+      flex-grow: 1;
+      max-width: 24rem;
+      margin: 0 0 0.3rem;
+      color: #64748b;
+      font-size: 0.78rem;
+      line-height: 1.25;
+    }
+    .joint-lab-person-info .network-icon:empty {
+      display: none;
+    }
+
+    .dark .joint-lab-section {
+      border-color: #44475a;
+      background: #343a40;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+    }
+    .dark .joint-lab-header {
+      border-color: #44475a;
+      background: #2f3340;
+      color: #f8f8f2;
+    }
+    .dark .joint-lab-logo {
+      border-color: #44475a;
+      background: #282a36;
+      color: #f8f8f2;
+      box-shadow: 0 5px 14px rgba(0, 0, 0, 0.22);
+    }
+    .dark .joint-lab-logo img {
+      filter: invert(1);
+    }
+    .dark .joint-lab-header h2 {
+      color: #f8f8f2;
+    }
+    .dark .joint-lab-content {
+      background: #343a40;
+    }
+    .dark .joint-lab-role-heading {
+      border-bottom-color: #44475a;
+    }
+    .dark .joint-lab-role-heading h3 {
+      color: #98a6ad;
+    }
+    .dark .joint-lab-person .avatar {
+      border-color: #44475a;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.24);
+    }
+    .dark .joint-lab-person-info h4 {
+      color: #fff;
+    }
+    .dark .joint-lab-person-identity {
+      color: #4fd1c5;
+    }
+    .dark .joint-lab-person-intro {
+      color: rgba(255, 255, 255, 0.68);
+    }
+    @media (min-width: 768px) {
+      .joint-lab-section {
+        flex-basis: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+      .joint-lab-people {
+        max-width: 1120px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .joint-lab-people-count-1 {
+        max-width: 300px;
+        grid-template-columns: 1fr;
+      }
+      .joint-lab-people-count-2 {
+        max-width: 600px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .joint-lab-people-count-3 {
+        max-width: 840px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .joint-lab-people-count-5 > :nth-child(5) {
+        grid-column: 2;
+      }
+      .joint-lab-people-count-6 > :nth-child(5) {
+        grid-column: 2;
+      }
+      .joint-lab-people-count-6 > :nth-child(6) {
+        grid-column: 3;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .joint-lab-header {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .joint-lab-brand {
+        width: 100%;
+        align-items: center;
+      }
+      .joint-lab-logo {
+        width: 11rem;
+        min-height: 3.25rem;
+        padding: 0.65rem 1rem;
+      }
+      .joint-lab-people {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 479.98px) {
+      .joint-lab-people {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .badge-oral {
       color: #d35400;
       font-weight: bold;

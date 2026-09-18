@@ -18,7 +18,10 @@ weight: 202301
 superuser: false
 
 # Role/position
-role: PhD, Jan. 2023 – 2026 (expected). 
+role: PhD, Jan. 2023 – Oct. 2026 (expected).
+joint_lab_role: Lead
+joint_lab_order: 2
+joint_lab_identity: Research Lead
 
 university: HKU
 
