@@ -23,12 +23,18 @@ joint_lab_intro: Computer Vision, Embodied AI
   name. Use it for information that adds context, such as `RA`, `PhD student`,
   `M.S. student, ShanghaiTech University`, or `Third-year undergraduate,
   Sichuan Agricultural University`. For graduates, include the degree and
-  year, such as `B.S. graduate, Zhejiang University (2026)`. Do not repeat the
-  section label unless the lead's display name is intentionally being used as
-  the identity.
+  year, such as `B.S. graduate, Zhejiang University (2026)`. Use the full
+  position name, such as `Research Assistant`, when clarity is more important
+  than avoiding a repeated section label.
 - `joint_lab_intro` is the short research-interest line shown below the identity.
   If it is absent, the card uses the profile's `interests` list. Keep it concise;
   use `Embodied AI` when no more specific direction is available.
+
+For dated identities, keep the same wording in `role` and `joint_lab_identity`
+when the date should be visible on both the profile and the card. For example,
+an upcoming intake can use `MPhil, Jan. 2027 -`; after enrollment, update it to
+the site's established `since` wording. Leadership identities can be specific
+to the person, such as `Joint Lab Director` and `Research Lead`.
 
 The section labels are fixed in the template:
 

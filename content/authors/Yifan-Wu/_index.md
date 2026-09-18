@@ -9,7 +9,7 @@ superuser: false
 role: Research Assistant
 joint_lab_role: RA
 joint_lab_order: 2
-joint_lab_identity: RA
+joint_lab_identity: Research Assistant
 joint_lab_intro: Computer Graphics, Physical Simulation
 university: HKU
 department:
