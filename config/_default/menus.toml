@@ -14,6 +14,12 @@
   identifier = "people"
   weight = 20
 
+[[main]]
+  name = "Joint Lab"
+  url = "/mirod-lab/"
+  identifier = "joint-lab"
+  weight = 30
+
 #  [[main]]
 #  name = "Research"
 #  url = "/research"

@@ -1,0 +1,18 @@
+{{- $publications := where site.RegularPages "Section" "publication" -}}
+{{- $publications = where $publications "Params.joint_lab" true -}}
+
+<section id="joint-lab-publications" class="joint-lab-publications col-12">
+  <div class="joint-lab-publications-heading">
+    <h2>Publications</h2>
+  </div>
+
+  {{- if $publications -}}
+    <div class="joint-lab-publication-list">
+      {{- range $publications.ByDate.Reverse -}}
+        {{ partial "li_citation" . }}
+      {{- end -}}
+    </div>
+  {{- else -}}
+    <p class="joint-lab-publications-empty">No Joint Lab publications yet.</p>
+  {{- end -}}
+</section>

@@ -3,6 +3,26 @@
 The Miro Dynamics - HKU CGVU Joint Lab is rendered by
 `layouts/partials/widgets/joint_lab.html` on the People page. The section is
 data-driven: any author profile with `joint_lab_role` is included automatically.
+The same partial is also used by the standalone `/mirod-lab/` page, which is
+available as a direct view. The Home section retains the `#joint-lab` anchor;
+the `Joint Lab` navigation entry and the Home section title link to
+`/mirod-lab/`, the standalone subpage. Keep both views driven by this shared
+partial instead of duplicating the member markup.
+
+## Joint Lab publications
+
+Publication membership is explicit and must be provided by the lab owner. Add
+this field only to an article that should belong to Joint Lab:
+
+```yaml
+joint_lab: true
+```
+
+The Main Lab publication page continues to show all articles. A publication
+with `joint_lab: true` is additionally shown on `/mirod-lab/`; an unmarked
+article remains Main Lab-only. Do not infer this flag from the article authors'
+Joint Lab roles or research interests. Until articles are explicitly marked,
+the Joint Lab Publications section remains empty.
 
 ## Main Lab and Joint Lab
 

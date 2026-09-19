@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="home-section wg-joint-lab">
+  <div class="container">
+    <div class="row justify-content-center people-widget">
+      {{ partial "widgets/joint_lab.html" (dict "root" . "page" .) }}
+      {{ partial "widgets/joint_lab_publications.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

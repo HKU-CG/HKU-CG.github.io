@@ -22,7 +22,16 @@ social:
 - icon: home
   icon_pack: fas
   link: https://jitingliu.com/
-email: ""
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=GVENiysAAAAJ&hl=zh-CN
+- icon: github
+  icon_pack: fab
+  link: https://github.com/liujiting123
+- icon: envelope
+  icon_pack: fas
+  link: mailto:liujiting616@gmail.com
+email: liujiting616@gmail.com
 user_groups: []
 display_groups: []
 ---

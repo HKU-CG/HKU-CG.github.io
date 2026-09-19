@@ -312,9 +312,42 @@
       font-size: 1.25rem;
       line-height: 1.25;
     }
+    .joint-lab-title-link {
+      color: inherit;
+      text-decoration: none;
+    }
+    .joint-lab-title-link:hover,
+    .joint-lab-title-link:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
     .joint-lab-content {
       padding: 0.85rem 0.25rem 0.35rem;
       background: #fff;
+    }
+    .joint-lab-publications {
+      margin-top: 2rem;
+      padding: 0.25rem 0.5rem 0.5rem;
+    }
+    .joint-lab-publications-heading {
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #dbe7ec;
+    }
+    .joint-lab-publications-heading h2 {
+      margin: 0 0 0.5rem;
+      color: #173546;
+      font-size: 1.35rem;
+      line-height: 1.25;
+    }
+    .joint-lab-publication-list {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .joint-lab-publications-empty {
+      margin: 0;
+      color: #64748b;
+      font-size: 0.9rem;
+      text-align: center;
     }
     .joint-lab-role {
       margin-bottom: 0.75rem;
@@ -414,6 +447,15 @@
     }
     .dark .joint-lab-content {
       background: #343a40;
+    }
+    .dark .joint-lab-publications-heading {
+      border-bottom-color: #44475a;
+    }
+    .dark .joint-lab-publications-heading h2 {
+      color: #f8f8f2;
+    }
+    .dark .joint-lab-publications-empty {
+      color: rgba(255, 255, 255, 0.68);
     }
     .dark .joint-lab-role-heading {
       border-bottom-color: #44475a;
