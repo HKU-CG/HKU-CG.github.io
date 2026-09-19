@@ -43,8 +43,8 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Human Pose Estimation
-- Humanoid Control
+- Human Prior Model
+- World Model
 - Robo Learning
 
 education:
