@@ -1,5 +1,9 @@
 # Best-practices documentation for modifying the website
 
+Project maintenance notes:
+
+- [Joint Lab maintenance](docs/joint_lab.md)
+
 ## Read this before you push anything!
 * Don't use `push -f`. It will overwrite other people's changes. Before you push, make sure you pull the latest version of the website.
 * After pushing, check if the website is deployed correctly. If it's successfully deployed, you should see a green tick beside the commit. If it fails, you'll see a red cross. If you see a red cross, click on it and check the error message. If you can't figure out what's wrong, ask someone else for help.

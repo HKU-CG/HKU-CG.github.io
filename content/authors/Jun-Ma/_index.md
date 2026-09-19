@@ -11,6 +11,7 @@ joint_lab_role: JuniorRA
 joint_lab_order: 4
 joint_lab_identity: B.S. graduate, Zhejiang University (2026)
 joint_lab_intro: Robotic Systems, SLAM
+home_display_group: Junior Research Assistant
 university: Zhejiang University
 department: []
 organizations:

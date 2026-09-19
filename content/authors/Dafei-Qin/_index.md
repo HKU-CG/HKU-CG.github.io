@@ -4,9 +4,9 @@ authors:
 - Dafei Qin
 names:
 - Dafei Qin
-weight: 202009
+weight: -202606
 superuser: false
-role: PhD, Sep. 2020 – Jun. 2026.
+role: PhD, Sep. 2020 - Jun. 2026.
 university: HKU
 department:
 - Computer Science
@@ -41,7 +41,7 @@ social:
   link: mailto:qindafei@connect.hku.hk
 email: qindafei@connect.hku.hk
 user_groups:
-- Graduate Students
+- PhD Alumni
 display_groups: null
 ---
 

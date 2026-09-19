@@ -246,6 +246,28 @@
     }
     .people-person .portrait-title h2 { margin-bottom: 0.3rem; }
     .people-person .portrait-title h3 { font-size: 0.9rem; margin-bottom: 0.3rem; }
+    .people-person .joint-lab-affiliation {
+      display: inline-block;
+      max-width: 100%;
+      margin: 0 auto 0.35rem;
+      padding: 0.18rem 0.55rem;
+      overflow-wrap: anywhere;
+      border: 1px solid #b7e3dc;
+      border-radius: 999px;
+      background: #e6f6f2;
+      color: #0f766e;
+      font-size: 0.72rem;
+      font-weight: 600;
+      line-height: 1.25;
+      text-align: center;
+      text-decoration: none;
+    }
+    .people-person .joint-lab-affiliation:hover,
+    .people-person .joint-lab-affiliation:focus-visible {
+      background: #d2f0ea;
+      color: #115e59;
+      text-decoration: none;
+    }
     .people-person .people-interests {
       flex-grow: 1;
       margin-bottom: 0.5rem;
@@ -475,6 +497,16 @@
     }
     .dark .joint-lab-person-intro {
       color: rgba(255, 255, 255, 0.68);
+    }
+    .dark .people-person .joint-lab-affiliation {
+      border-color: #2c8c83;
+      background: #194c4a;
+      color: #9ae6d8;
+    }
+    .dark .people-person .joint-lab-affiliation:hover,
+    .dark .people-person .joint-lab-affiliation:focus-visible {
+      background: #226461;
+      color: #c6f6ec;
     }
     @media (min-width: 768px) {
       .joint-lab-section {

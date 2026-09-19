@@ -11,6 +11,7 @@ joint_lab_role: JuniorRA
 joint_lab_order: 3
 joint_lab_identity: Undergraduate 4th year, Tianjin University
 joint_lab_intro: Embodied Intelligence, Human-Centered Perception, Robotic Systems
+home_display_group: Junior Research Assistant
 university: Tianjin University
 department:
 - Electronic Information Engineering

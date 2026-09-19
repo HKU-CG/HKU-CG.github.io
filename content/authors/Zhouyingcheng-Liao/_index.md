@@ -8,8 +8,8 @@ weight: 202301
 superuser: false
 role: PhD, since Jan. 2023.
 joint_lab_role: Lead
-joint_lab_order: 1
-joint_lab_identity: Joint Lab Director
+joint_lab_order: 2
+joint_lab_identity: Research Lead
 university: HKU
 department:
 - Computer Science

@@ -19,6 +19,7 @@ Read `AGENTS.md` first; it is more current than `README.md` for agent work.
 4. For homepage/lab intro tasks, edit `content/authors/admin/_index.md`, not Taku's personal profile.
 5. For local preview, run `bash view.sh`; it auto-selects the next free port if the requested port is busy.
 6. Do not rely on `README.md` for exact paths; some legacy paths there are stale.
+7. For Joint Lab member, page, or publication tasks, also read `docs/joint_lab.md`.
 
 ## Agent Session Principles
 

@@ -17,6 +17,9 @@ superuser: false
 
 # Role/position
 role: Professor
+joint_lab_role: Lead
+joint_lab_order: 1
+joint_lab_identity: Joint Lab Director
 
 university: HKU
 
