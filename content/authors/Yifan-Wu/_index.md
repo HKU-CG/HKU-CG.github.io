@@ -4,7 +4,7 @@ authors:
 - Yifan Wu
 names:
 - Yifan Wu
-weight: -202401
+weight: 999007
 superuser: false
 role: Research Assistant
 joint_lab_role: RA
@@ -37,6 +37,5 @@ social:
   icon_pack: fab
   link: https://github.com/littlecobber
 email: ""
-user_groups:
-- Research Assistant Alumni
+user_groups: []
 ---

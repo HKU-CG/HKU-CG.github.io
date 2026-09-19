@@ -59,7 +59,7 @@
   
       <div class="portrait-title">
         <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-        {{ if .Params.joint_lab_role }}
+        {{ if and .Params.joint_lab_role (not .Params.hide_home_joint_lab_affiliation) }}
         <a class="joint-lab-affiliation" href="{{ "mirod-lab/" | relURL }}">Affiliated with Mirod Joint Lab</a>
         {{ end }}
         {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
