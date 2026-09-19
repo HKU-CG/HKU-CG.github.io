@@ -9,7 +9,7 @@ superuser: false
 role: Research Assistant
 joint_lab_role: JuniorRA
 joint_lab_order: 3
-joint_lab_identity: Senior undergraduate, Tianjin University
+joint_lab_identity: Undergraduate 4th year, Tianjin University
 joint_lab_intro: Embodied Intelligence, Human-Centered Perception, Robotic Systems
 university: Tianjin University
 department:

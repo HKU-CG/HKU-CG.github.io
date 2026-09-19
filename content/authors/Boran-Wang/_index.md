@@ -10,7 +10,7 @@ role: Research Assistant
 joint_lab_role: JuniorRA
 joint_lab_order: 1
 joint_lab_identity: MSc student, HKU (2025-2026)
-joint_lab_intro: Computer Vision, Embodied AI
+joint_lab_intro: 3D Reconstruction, Human Pose Estimation, Agentic AI
 university: HKU
 department:
 - Computer Science
@@ -18,8 +18,9 @@ organizations:
 - name: The University of Hong Kong
   url: https://www.hku.hk/
 interests:
-- Computer Vision
-- Embodied AI
+- 3D Reconstruction
+- Human Pose Estimation
+- Agentic AI
 education:
   courses:
   - course: MSc in Computer Science

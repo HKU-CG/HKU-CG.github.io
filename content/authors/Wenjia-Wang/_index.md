@@ -45,7 +45,7 @@ organizations:
 interests:
 - Human Pose Estimation
 - Humanoid Control
-- Embodied AI
+- Robo Learning
 
 education:
   courses:

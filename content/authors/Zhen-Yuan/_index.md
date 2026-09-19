@@ -10,12 +10,14 @@ role: MPhil, Jan. 2027 -
 joint_lab_role: MPhil
 joint_lab_order: 1
 joint_lab_identity: MPhil, Jan. 2027 -
-joint_lab_intro: Embodied AI
+joint_lab_intro: Dexterous Hand Control, Robo Learning
 university: HKU
 department:
 - Computer Science
 organizations: []
-interests: []
+interests:
+- Dexterous Hand Control
+- Robo Learning
 social: []
 email: ""
 user_groups: []

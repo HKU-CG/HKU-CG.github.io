@@ -9,7 +9,7 @@ superuser: false
 role: Research Assistant
 joint_lab_role: RA
 joint_lab_order: 2
-joint_lab_identity: Research Assistant
+joint_lab_identity: M.S. graduate, Boston University (2024)
 joint_lab_intro: Computer Graphics, Physical Simulation
 university: HKU
 department:
@@ -19,6 +19,11 @@ organizations:
 interests:
 - Computer Graphics
 - Physical Simulation
+education:
+  courses:
+  - course: M.S.
+    institution: Boston University
+    year: 2024
 personal_homepage: https://littlecobber.github.io/
 social:
 - icon: home

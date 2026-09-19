@@ -20,7 +20,7 @@ organizations:
   url: ''
 interests:
 - Character Animation
-- Embodied AI
+- Robo Learning
 education:
   courses:
   - course: PhD in Computer Science

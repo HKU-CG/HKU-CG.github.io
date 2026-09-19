@@ -9,15 +9,19 @@ superuser: false
 role: Research Assistant
 joint_lab_role: JuniorRA
 joint_lab_order: 2
-joint_lab_identity: Third-year undergraduate, Sichuan Agricultural University
-joint_lab_intro: Embodied AI
+joint_lab_identity: Undergraduate 3rd year, Sichuan Agricultural University
+joint_lab_intro: Robo Learning
 university: Sichuan Agricultural University
 department: []
 organizations:
 - name: Sichuan Agricultural University
   url: https://www.sicau.edu.cn/
-interests: []
-social: []
+interests:
+- Robo Learning
+social:
+- icon: home
+  icon_pack: fas
+  link: https://jitingliu.com/
 email: ""
 user_groups: []
 display_groups: []

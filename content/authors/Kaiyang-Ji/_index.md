@@ -9,7 +9,7 @@ superuser: false
 role: Research Assistant
 joint_lab_role: RA
 joint_lab_order: 1
-joint_lab_identity: M.S. student, ShanghaiTech University
+joint_lab_identity: MSc 3rd year, ShanghaiTech University
 joint_lab_intro: Human-Centered 3D Vision, Generative Models, Embodied AI
 university: ShanghaiTech University
 department:

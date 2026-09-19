@@ -4,6 +4,29 @@ The Miro Dynamics - HKU CGVU Joint Lab is rendered by
 `layouts/partials/widgets/joint_lab.html` on the People page. The section is
 data-driven: any author profile with `joint_lab_role` is included automatically.
 
+## Main Lab and Joint Lab
+
+The two sections share author profiles, verified links, and portraits, but they
+are maintained independently:
+
+- **Main Lab membership** comes from the `content.user_groups` list in
+  `content/People/people.md`, together with each profile's `user_groups` field.
+  Main Lab cards use the profile's standard fields, including `role`,
+  `interests`, and `social`.
+- **Joint Lab membership** is controlled only by the presence of
+  `joint_lab_role` in an author profile. Its grouping, order, identity, and
+  short research line come from `joint_lab_role`, `joint_lab_order`,
+  `joint_lab_identity`, and `joint_lab_intro` respectively.
+- `joint_lab_intro` takes precedence over `interests` on the Joint Lab card.
+  When a research-direction change should appear in both sections, update the
+  profile's `interests` and its `joint_lab_intro` together.
+- A Joint Lab member may be an external collaborator and does not need to be a
+  Main Lab member or an HKU student. Adding or removing a Joint Lab role should
+  not change `user_groups` or move the person to an alumni group.
+- The Joint Lab is rendered by `layouts/partials/widgets/joint_lab.html` and is
+  inserted after the Main Lab `Research Assistant` group. Main Lab alumni rules
+  apply only to the Main Lab display, not to Joint Lab role assignments.
+
 ## Member fields
 
 Add these fields to the member's `content/authors/<Name>/_index.md`:
@@ -21,7 +44,7 @@ joint_lab_intro: Computer Vision, Embodied AI
   starting at `1`.
 - `joint_lab_identity` is an optional personal identity line shown below the
   name. Use it for information that adds context, such as `RA`, `PhD student`,
-  `M.S. student, ShanghaiTech University`, or `Third-year undergraduate,
+  `MSc 3rd year, ShanghaiTech University`, or `Undergraduate 3rd year,
   Sichuan Agricultural University`. For graduates, include the degree and
   year, such as `B.S. graduate, Zhejiang University (2026)`. Use the full
   position name, such as `Research Assistant`, when clarity is more important
