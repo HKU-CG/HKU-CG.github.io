@@ -6,7 +6,7 @@ names:
 - Dafei Qin
 weight: -202606
 superuser: false
-role: PhD, Sep. 2020 - Jun. 2026.
+role: PhD, Sep. 2020 - Jun. 2026. Now at Tencent.
 university: HKU
 department:
 - Computer Science

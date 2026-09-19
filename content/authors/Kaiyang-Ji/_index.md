@@ -11,6 +11,7 @@ joint_lab_role: RA
 joint_lab_order: 1
 joint_lab_identity: MSc 3rd year, ShanghaiTech University
 joint_lab_intro: Human-Centered 3D Vision, Generative Models, Embodied AI
+people_display_group: Research Assistant
 home_display_group: Research Assistant
 university: ShanghaiTech University
 department:

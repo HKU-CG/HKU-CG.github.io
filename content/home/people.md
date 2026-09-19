@@ -1,19 +1,30 @@
 +++
-# A "Meet the Team" section created with the People widget.
-# This section displays people from `content/authors/` which belong to the `user_groups` below.
+# A compact lab leadership preview. The full directory is on the People page.
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 75  # Order that this section will appear.
 
-title = "Meet the Team"
+title = ""
 subtitle = ""
+
+[[action_links]]
+label = "All members"
+url = "/people/"
+icon = "fa-users"
+variant = "directory"
+
+[[action_links]]
+label = "Joint Lab"
+url = "/mirod-lab/"
+icon = "fa-handshake"
+variant = "joint-lab"
 
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Principal Investigator", "Graduate Students", "Research Staff", "Research Assistant", "Junior Research Assistant", "Undergraduate Students"]
+  user_groups = ["Principal Investigator"]
 
 [design]
   # Show user's social networking links? (true/false)

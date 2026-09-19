@@ -24,7 +24,10 @@
   
     {{ range $page.Params.content.user_groups }}
   
-    {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+    {{ $authors := where site.Pages "Section" "authors" }}
+    {{ $query := where $authors ".Params.user_groups" "intersect" (slice .) }}
+    {{ $display_query := where $authors ".Params.people_display_group" . }}
+    {{ $query = union $query $display_query }}
   
     {{if $query}}
     <div class="col-md-12">
@@ -56,6 +59,9 @@
   
       <div class="portrait-title">
         <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+        {{ if and .Params.joint_lab_role (not .Params.hide_joint_lab_affiliation) }}
+        <a class="joint-lab-affiliation" href="{{ "mirod-lab/" | relURL }}">Affiliated with Mirod Joint Lab</a>
+        {{ end }}
         {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
         {{ if and $show_department .Params.department }}<h3>{{ delimit .Params.department ", " | markdownify | emojify }}</h3>{{ end }}
         {{ if and $show_projects .Params.projects }}<p class="people-interests">{{ delimit .Params.projects ", " | markdownify | emojify }}</p>{{ end }}

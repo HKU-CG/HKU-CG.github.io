@@ -250,22 +250,23 @@
       display: inline-block;
       max-width: 100%;
       margin: 0 auto 0.35rem;
-      padding: 0.18rem 0.55rem;
+      padding: 0.2rem 0.6rem;
       overflow-wrap: anywhere;
-      border: 1px solid #b7e3dc;
+      border: 1px solid #f59e0b;
       border-radius: 999px;
-      background: #e6f6f2;
-      color: #0f766e;
+      background: #fff3cd;
+      color: #9a3412;
       font-size: 0.72rem;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.25;
       text-align: center;
       text-decoration: none;
+      box-shadow: 0 1px 3px rgba(245, 158, 11, 0.2);
     }
     .people-person .joint-lab-affiliation:hover,
     .people-person .joint-lab-affiliation:focus-visible {
-      background: #d2f0ea;
-      color: #115e59;
+      background: #fed7aa;
+      color: #7c2d12;
       text-decoration: none;
     }
     .people-person .people-interests {
@@ -275,6 +276,61 @@
     }
     .people-person .network-icon { margin-top: auto; }
 
+    .people-action-links {
+      flex: 0 0 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+      margin-top: 0.25rem;
+      text-align: center;
+    }
+    .people-action-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.5rem 0.85rem;
+      border: 1px solid;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .people-action-link-directory {
+      border-color: #b8cbed;
+      background: #eef3ff;
+      color: #2457a6;
+    }
+    .people-action-link-directory:hover,
+    .people-action-link-directory:focus-visible {
+      border-color: #8faee8;
+      background: #e0eaff;
+      color: #1d4788;
+      text-decoration: none;
+    }
+    .people-action-link-joint-lab {
+      border-color: #b7e3dc;
+      background: #e6f6f2;
+      color: #0f766e;
+    }
+    .people-action-link-joint-lab:hover,
+    .people-action-link-joint-lab:focus-visible {
+      border-color: #83cfc3;
+      background: #d2f0ea;
+      color: #115e59;
+      text-decoration: none;
+    }
+    .people-action-link:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+    .people-action-link i {
+      font-size: 0.9rem;
+    }
+    .people-action-link span {
+      line-height: 1.2;
+    }
     .joint-lab-section {
       flex: 0 0 100%;
       max-width: 100%;
@@ -499,12 +555,35 @@
       color: rgba(255, 255, 255, 0.68);
     }
     .dark .people-person .joint-lab-affiliation {
+      border-color: #fbbf24;
+      background: #854d0e;
+      color: #fff7d6;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    }
+    .dark .people-person .joint-lab-affiliation:hover,
+    .dark .people-person .joint-lab-affiliation:focus-visible {
+      background: #a16207;
+      color: #fffbea;
+    }
+    .dark .people-action-link-directory {
+      border-color: #4c6fae;
+      background: #263b63;
+      color: #b9d0ff;
+    }
+    .dark .people-action-link-directory:hover,
+    .dark .people-action-link-directory:focus-visible {
+      border-color: #6c91d3;
+      background: #304b7d;
+      color: #d9e5ff;
+    }
+    .dark .people-action-link-joint-lab {
       border-color: #2c8c83;
       background: #194c4a;
       color: #9ae6d8;
     }
-    .dark .people-person .joint-lab-affiliation:hover,
-    .dark .people-person .joint-lab-affiliation:focus-visible {
+    .dark .people-action-link-joint-lab:hover,
+    .dark .people-action-link-joint-lab:focus-visible {
+      border-color: #48b8aa;
       background: #226461;
       color: #c6f6ec;
     }

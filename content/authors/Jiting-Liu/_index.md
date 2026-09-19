@@ -11,6 +11,7 @@ joint_lab_role: JuniorRA
 joint_lab_order: 2
 joint_lab_identity: Undergraduate 3rd year, Sichuan Agricultural University
 joint_lab_intro: Robo Learning
+people_display_group: Junior Research Assistant
 home_display_group: Junior Research Assistant
 university: Sichuan Agricultural University
 department: []

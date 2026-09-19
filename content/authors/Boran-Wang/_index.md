@@ -11,6 +11,7 @@ joint_lab_role: JuniorRA
 joint_lab_order: 1
 joint_lab_identity: MSc student, HKU (2025-2026)
 joint_lab_intro: 3D Reconstruction, Human Pose Estimation, Agentic AI
+people_display_group: Junior Research Assistant
 home_display_group: Junior Research Assistant
 university: HKU
 department:

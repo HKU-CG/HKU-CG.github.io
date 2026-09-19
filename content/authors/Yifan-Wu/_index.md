@@ -11,6 +11,7 @@ joint_lab_role: RA
 joint_lab_order: 2
 joint_lab_identity: M.S. graduate, Boston University (2024)
 joint_lab_intro: Computer Graphics, Physical Simulation
+people_display_group: Research Assistant
 home_display_group: Research Assistant
 university: HKU
 department:

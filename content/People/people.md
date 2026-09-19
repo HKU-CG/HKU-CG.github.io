@@ -12,8 +12,9 @@ subtitle = ""
 
 [content]
   # Choose which groups/teams of users to display.
-  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Principal Investigator", "Graduate Students", "Research Staff", "Research Assistant", "Undergraduate Students"]
+  #   Profiles may use `people_display_group` for visual Joint Lab affiliation
+  #   without changing their actual Main Lab `user_groups`.
+  user_groups = ["Principal Investigator", "Graduate Students", "Research Staff", "Research Assistant", "Junior Research Assistant", "Undergraduate Students"]
 
 [design]
   # Show user's social networking links? (true/false)
