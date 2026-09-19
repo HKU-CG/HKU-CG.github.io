@@ -10,13 +10,13 @@ title = ""
 subtitle = ""
 
 [[action_links]]
-label = "All members"
+label = "View all members"
 url = "/people/"
 icon = "fa-users"
 variant = "directory"
 
 [[action_links]]
-label = "Joint Lab"
+label = "Mirod Joint Lab"
 url = "/mirod-lab/"
 icon = "fa-handshake"
 variant = "joint-lab"
