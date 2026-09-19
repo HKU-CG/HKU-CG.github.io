@@ -16,7 +16,7 @@ icon = "fa-users"
 variant = "directory"
 
 [[action_links]]
-label = "Mirod Joint Lab"
+label = "Miro Joint Lab"
 url = "/mirod-lab/"
 icon = "fa-handshake"
 variant = "joint-lab"
