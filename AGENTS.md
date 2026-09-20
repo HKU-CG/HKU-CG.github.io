@@ -236,12 +236,13 @@ When multiple papers share the same year, set `date` according to the **approxim
 
 - `content/authors/admin/_index.md` controls **both** the lab intro text **and** the recruitment section on the homepage.
 - **Research directions**: Use broad domains (e.g., *physical simulation*, *humanoid robotics*, *3D vision*) rather than narrow technical keywords. Do not copy-paste from old descriptions like "physically-based animation and the application of machine learning techniques for animation synthesis" without checking recent publications.
-- **Recruitment contacts**: If adding/changing contact emails for MPhil / PhD / RA / collaboration inquiries, append them to the same paragraph. Current contacts:
-  - `taku@cs.hku.hk`
-  - `wwj2022@connect.hku.hk`
-  - `zliao@connect.hku.hk`
-  - `kmhuang@connect.hku.hk`
-- **Copy style**: Avoid repetitive "or" lists (e.g., "A, or B, or C"). Prefer: "Please feel free to reach out to any of us: ..." or "Please contact us at the following emails: ..."
+- **Recruitment contacts**:
+  - General inquiries: `taku@cs.hku.hk`
+  - Embodied AI and 3D Vision: `wwj2022@connect.hku.hk`, `zliao@connect.hku.hk`
+  - Physical Simulation: `kmhuang@connect.hku.hk`
+- **Public email format**: Render recruitment addresses with `[at]` and `[dot]`, not as raw addresses or `mailto:` links. Keep Taku's address in the lab-intro paragraph and list Wenjia Wang, Zhouyingcheng Liao, and Kemeng Huang on separate lines with their research areas.
+- **Recruitment profile icons**: Taku Komura, Wenjia Wang, Zhouyingcheng Liao, and Kemeng Huang intentionally omit envelope icons to reduce automated address harvesting. Do not restore those icons unless explicitly requested.
+- **Copy style**: Avoid repetitive "or" lists (e.g., "A, or B, or C"). Prefer short, scannable contact lines.
 
 ## Local Development
 
@@ -305,6 +306,12 @@ To keep author cards aligned (same height, icons at bottom), the following CSS i
 ```
 
 Do **not** add per-widget `<style>` tags in partials — they may not render. Use the global `<style>` block in `site_head.html` instead.
+
+Responsive layout ownership:
+
+- `/people/` uses `layouts/partials/widgets/awesome.html`. Its `col-6 col-sm-auto` member class gives two columns below 576px; the theme keeps three columns from 576px and five columns from 992px.
+- Home uses `layouts/partials/widgets/people.html` and keeps its single Principal Investigator card full-width on mobile.
+- `/mirod-lab/` uses its own grid in `layouts/partials/site_head.html`; do not change that grid when adjusting the People page.
 
 ## Change Safety
 
