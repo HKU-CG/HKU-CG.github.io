@@ -38,9 +38,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/KemengHuang
-- icon: envelope
-  icon_pack: fas
-  link: mailto:kmhuang@connect.hku.hk
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0001-9147-2289

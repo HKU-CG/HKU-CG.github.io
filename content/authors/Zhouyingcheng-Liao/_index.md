@@ -42,9 +42,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/zycliao
-- icon: envelope
-  icon_pack: fas
-  link: mailto:zycliao@cs.hku.hk
 email: zycliao@cs.hku.hk
 user_groups:
 - Graduate Students

@@ -19,8 +19,12 @@ email: ''
 user_groups: null
 ---
 
-CGVU Lab, led by Prof. [Taku Komura](/authors/taku-komura), is part of the Department of Computer Science at the University of Hong Kong. Our research lies in **physical simulation**, **humanoid robotics**, and **3D vision**.
+CGVU Lab, led by Prof. [Taku Komura](/authors/taku-komura), is part of the Department of Computer Science at the University of Hong Kong. Our research lies in **physical simulation**, **humanoid robotics**, and **3D vision**. For general inquiries, please contact taku [at] cs [dot] hku [dot] hk.
 
-**We are actively looking for MPhil, PhD, RA, and collaborators!** Please contact taku@cs.hku.hk, zliao@connect.hku.hk / wwj2022@connect.hku.hk (Embodied AI and 3D Vision), and kmhuang@connect.hku.hk (Physical Simulation).
+**We are actively looking for MPhil, PhD, RA, and collaborators!** Please contact:
+
+- **Wenjia Wang:** wwj2022 [at] connect [dot] hku [dot] hk (Embodied AI and 3D Vision)
+- **Zhouyingcheng Liao:** zliao [at] connect [dot] hku [dot] hk (Embodied AI and 3D Vision)
+- **Kemeng Huang:** kmhuang [at] connect [dot] hku [dot] hk (Physical Simulation)
 
 ![group.png](/media/group_small.jpg)
