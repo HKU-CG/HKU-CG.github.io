@@ -11,6 +11,9 @@
         <h2><a class="joint-lab-title-link" href="{{ "mirod-lab/" | relURL }}">Miro Dynamics - HKU CGVU Joint Lab</a></h2>
       </div>
     </div>
+    {{- with .page.Content }}
+    <div class="joint-lab-intro">{{ . }}</div>
+    {{- end }}
   </div>
 
   <div class="joint-lab-content">
@@ -25,7 +28,7 @@
         {{- $sorted_members := sort $role_members "Params.joint_lab_order" -}}
         {{- $role_count := len $sorted_members -}}
         {{- $role_label := $role -}}
-        {{- if eq $role "Lead" }}{{ $role_label = "Joint Lab Leadership" }}{{ end -}}
+        {{- if eq $role "Lead" }}{{ $role_label = "Leadership" }}{{ end -}}
         {{- if eq $role "RA" }}{{ $role_label = "Research Assistant" }}{{ end -}}
         {{- if eq $role "Postgraduate" }}{{ $role_label = "Graduate Students" }}{{ end -}}
         {{- if eq $role "JuniorRA" }}{{ $role_label = "Junior Research Assistant" }}{{ end -}}

@@ -45,7 +45,7 @@ organizations:
 interests:
 - Human Prior Model
 - World Model
-- Robo Learning
+- Robot Learning
 
 education:
   courses:

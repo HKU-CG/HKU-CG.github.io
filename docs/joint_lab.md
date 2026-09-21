@@ -9,6 +9,12 @@ Lab display groups and adds a short affiliation link below their names.
 Keep the complete Joint Lab member markup in the shared partial and do not
 duplicate it in the Home or People widgets.
 
+## Joint Lab introduction
+
+The introduction paragraph under the page title is the Markdown body of
+`content/mirod-lab/index.md`. The shared partial renders it inside the header
+block as `.joint-lab-intro`; leave the body empty to hide it.
+
 ## Joint Lab publications
 
 Publication membership is explicit and must be provided by the lab owner. Add
@@ -101,13 +107,13 @@ For dated identities, keep the same wording in `role` and `joint_lab_identity`
 when the date should be visible on both the profile and the card. For example,
 an upcoming intake can use `MPhil, Jan. 2027 -`; after enrollment, update it to
 the site's established `since` wording. Leadership identities can be specific
-to the person, such as `Joint Lab Director` and `Research Lead`.
+to the person, such as `Director` and `Research Lead`.
 
 The section labels are fixed in the template:
 
 | Field | Display label |
 | --- | --- |
-| `Lead` | Joint Lab Leadership |
+| `Lead` | Leadership |
 | `RA` | Research Assistant |
 | `PhD` / `MPhil` | Graduate Students |
 | `JuniorRA` | Junior Research Assistant |

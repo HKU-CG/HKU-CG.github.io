@@ -19,7 +19,7 @@ superuser: false
 role: Professor
 joint_lab_role: Lead
 joint_lab_order: 1
-joint_lab_identity: Joint Lab Director
+joint_lab_identity: Director
 hide_joint_lab_affiliation: true
 
 university: HKU

@@ -19,8 +19,9 @@ organizations:
 - name: University of Hong Kong
   url: ''
 interests:
-- Character Animation
-- Robo Learning
+- Robot Learning
+- Capture System
+- Retargeting
 education:
   courses:
   - course: PhD in Computer Science
