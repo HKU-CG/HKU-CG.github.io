@@ -50,7 +50,10 @@ are maintained independently:
 - **Joint Lab membership** is controlled only by the presence of
   `joint_lab_role` in an author profile. Its grouping, order, identity, and
   short research line come from `joint_lab_role`, `joint_lab_order`,
-  `joint_lab_identity`, and `joint_lab_intro` respectively.
+  `joint_lab_identity`, and `joint_lab_intro` respectively. Use
+  `joint_lab_role: Alumni` for former Joint Lab members; this places them in
+  the standalone Joint Lab Alumni section and keeps them out of the Main Lab
+  People directory unless they also have an explicit Main Lab alumni group.
 - `joint_lab_intro` takes precedence over `interests` on the Joint Lab card.
   When a research-direction change should appear in both sections, update the
   profile's `interests` and its `joint_lab_intro` together.
@@ -63,7 +66,8 @@ are maintained independently:
   should also appear in those visual directories.
 - The Joint Lab is rendered only by `layouts/mirod_lab/single.html` through
   `layouts/partials/widgets/joint_lab.html`. Main Lab alumni rules apply to
-  the People page; Joint Lab role assignments are maintained independently.
+  the People page; Joint Lab role assignments and the separate Joint Lab
+  Alumni section are maintained independently.
 
 ## Member fields
 
@@ -78,8 +82,9 @@ home_display_group: Research Assistant
 people_display_group: Research Assistant
 ```
 
-- `joint_lab_role` controls the section. Use `Lead`, `RA`, `PhD`, `MPhil`, or
-  `JuniorRA`. `PhD` and `MPhil` are displayed together as `Graduate Students`.
+- `joint_lab_role` controls the section. Use `Lead`, `RA`, `PhD`, `MPhil`,
+  `JuniorRA`, or `Alumni`. `PhD` and `MPhil` are displayed together as
+  `Graduate Students`.
 - `joint_lab_order` controls the order within a section. Use consecutive values
   starting at `1`.
 - `joint_lab_identity` is an optional personal identity line shown below the
@@ -98,6 +103,9 @@ people_display_group: Research Assistant
 - `people_display_group` is optional. Set it for an external Joint Lab
   collaborator who should appear in the full People directory. It does not add
   the person to Main Lab `user_groups`.
+- For `joint_lab_role: Alumni`, leave both `people_display_group` and
+  `home_display_group` unset so the person appears only in the Joint Lab Alumni
+  section.
 - People and Home show the affiliation link for Joint Lab members by default
   when those profiles are displayed. Set `hide_joint_lab_affiliation: true` for
   a lab-level leader whose Main Lab role already establishes the relationship,
@@ -117,6 +125,7 @@ The section labels are fixed in the template:
 | `RA` | Research Assistant |
 | `PhD` / `MPhil` | Graduate Students |
 | `JuniorRA` | Junior Research Assistant |
+| `Alumni` | Alumni |
 
 ## Links and portraits
 

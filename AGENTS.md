@@ -258,7 +258,7 @@ brew install hugo go
 ```bash
 bash view.sh
 # or directly:
-hugo server --baseURL http://localhost:1313/ --disableFastRender --printI18nWarnings
+hugo server --bind 0.0.0.0 --baseURL 'http://<machine-ip>:1313/' --disableFastRender --printI18nWarnings
 ```
 
 `view.sh` supports custom ports via the `PORT` or `port` environment variable (default is `1313`):
@@ -270,7 +270,7 @@ port=3000 bash view.sh
 
 If the requested port is already in use, `view.sh` automatically increments to the next available port and prints the actual preview URL. It also prepends common local binary paths (`$HOME/miniconda3/bin`, `$HOME/.local/bin`) before checking for `hugo` and `go`.
 
-Site will be at **http://localhost:1313/** by default unless that port is busy.
+Preview must listen on `0.0.0.0` and use the machine's network IP in both `baseURL` and the link shown to the user (for example, `http://10.128.0.156:1313/`). Do not use `localhost` for preview links; the user accesses the machine directly without port forwarding. `view.sh` detects the current IP and selects a free port starting at `1313`.
 
 ### Build (dry-run)
 

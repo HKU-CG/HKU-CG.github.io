@@ -6,13 +6,11 @@ names:
 - Jiting Liu
 weight: 999003
 superuser: false
-role: Research Assistant
-joint_lab_role: JuniorRA
-joint_lab_order: 2
-joint_lab_identity: Undergraduate 3rd year, Sichuan Agricultural University
+role: Joint Lab Alumni
+joint_lab_role: Alumni
+joint_lab_order: 1
+joint_lab_identity: former junior RA
 joint_lab_intro: Robot Learning
-people_display_group: Junior Research Assistant
-home_display_group: Junior Research Assistant
 university: Sichuan Agricultural University
 department: []
 organizations:

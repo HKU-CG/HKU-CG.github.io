@@ -43,7 +43,16 @@ if [[ "$PORT" != "$REQUESTED_PORT" ]]; then
   echo "Port $REQUESTED_PORT is in use; using $PORT instead."
 fi
 
-URL="http://localhost:${PORT}/"
+if [[ "$OSTYPE" == darwin* ]]; then
+  PREVIEW_IP="$(ipconfig getifaddr "$(route -n get default | awk '/interface:/ {print $2}')")"
+else
+  PREVIEW_IP="$(ip -4 route get 1.1.1.1 | awk '{for (i=1; i<=NF; i++) if ($i == "src") {print $(i+1); exit}}')"
+fi
+if [[ -z "$PREVIEW_IP" ]]; then
+  echo "Error: could not determine the local network IP address." >&2
+  exit 1
+fi
+URL="http://${PREVIEW_IP}:${PORT}/"
 
 # Print an OSC 8 clickable hyperlink for terminals that support it
 printf '\033]8;;%s\033\\Preview URL: %s\033]8;;\033\\\n' "$URL" "$URL"
@@ -57,5 +66,5 @@ hugo server \
   --baseURL "$URL" \
   --disableFastRender \
   --printI18nWarnings \
-  --bind 127.0.0.1 \
+  --bind 0.0.0.0 \
   -p "$PORT"

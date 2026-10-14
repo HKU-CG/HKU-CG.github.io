@@ -17,7 +17,7 @@
   </div>
 
   <div class="joint-lab-content">
-    {{- range $role := slice "Lead" "RA" "Postgraduate" "JuniorRA" -}}
+    {{- range $role := slice "Lead" "RA" "Postgraduate" "JuniorRA" "Alumni" -}}
       {{- $role_members := where $members "Params.joint_lab_role" $role -}}
       {{- if eq $role "Postgraduate" -}}
         {{- $phd_members := where $members "Params.joint_lab_role" "PhD" -}}
