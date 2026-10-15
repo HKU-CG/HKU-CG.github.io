@@ -32,11 +32,21 @@
         {{- if eq $role "RA" }}{{ $role_label = "Research Assistant" }}{{ end -}}
         {{- if eq $role "Postgraduate" }}{{ $role_label = "Graduate Students" }}{{ end -}}
         {{- if eq $role "JuniorRA" }}{{ $role_label = "Junior Research Assistant" }}{{ end -}}
+        {{- if eq $role "Alumni" }}{{ $role_label = "Previous Students" }}{{ end -}}
         <section class="joint-lab-role">
           <div class="joint-lab-role-heading">
             <h3>{{ $role_label }}</h3>
           </div>
 
+          {{ if eq $role "Alumni" }}
+          <ul class="joint-lab-alumni">
+            {{ range $sorted_members }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.joint_lab_identity }} — {{ . }}{{ end }}{{ with .Params.joint_lab_dates }} — {{ . }}{{ end }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ else }}
           <div class="joint-lab-people joint-lab-people-count-{{ $role_count }}">
             {{- range $sorted_members -}}
               {{- $member := . -}}
@@ -70,6 +80,7 @@
               </article>
             {{- end -}}
           </div>
+          {{ end }}
         </section>
       {{- end -}}
     {{- end -}}

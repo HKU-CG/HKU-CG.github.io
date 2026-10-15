@@ -9,7 +9,8 @@ superuser: false
 role: Joint Lab Alumni
 joint_lab_role: Alumni
 joint_lab_order: 1
-joint_lab_identity: former junior RA
+joint_lab_identity: junior RA
+joint_lab_dates: May–October 2026
 joint_lab_intro: Robot Learning
 university: Sichuan Agricultural University
 department: []

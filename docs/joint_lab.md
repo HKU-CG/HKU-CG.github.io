@@ -105,7 +105,9 @@ people_display_group: Research Assistant
   the person to Main Lab `user_groups`.
 - For `joint_lab_role: Alumni`, leave both `people_display_group` and
   `home_display_group` unset so the person appears only in the Joint Lab Alumni
-  section.
+  section. Alumni use a plain list showing only the linked name,
+  `joint_lab_identity` (former position), and `joint_lab_dates` (for example,
+  `June–October 2026`), without portraits, research interests, or social icons.
 - People and Home show the affiliation link for Joint Lab members by default
   when those profiles are displayed. Set `hide_joint_lab_affiliation: true` for
   a lab-level leader whose Main Lab role already establishes the relationship,
@@ -125,7 +127,7 @@ The section labels are fixed in the template:
 | `RA` | Research Assistant |
 | `PhD` / `MPhil` | Graduate Students |
 | `JuniorRA` | Junior Research Assistant |
-| `Alumni` | Alumni |
+| `Alumni` | Previous Students |
 
 ## Links and portraits
 
