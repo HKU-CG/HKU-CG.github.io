@@ -23,7 +23,8 @@ CGVU Lab, led by Prof. [Taku Komura](/authors/taku-komura), is part of the Depar
 
 **We are actively looking for MPhil, PhD, RA, and collaborators!** Please contact:
 
-- **Wenjia Wang:** wwj2022 [at] connect [dot] hku [dot] hk (Embodied AI and 3D Vision)
+<!-- - **Wenjia Wang:** wwj2022 [at] connect [dot] hku [dot] hk (Embodied AI and 3D Vision) -->
+
 - **Zhouyingcheng Liao:** zliao [at] connect [dot] hku [dot] hk (Embodied AI and 3D Vision)
 - **Kemeng Huang:** kmhuang [at] connect [dot] hku [dot] hk (Physical Simulation)
 
