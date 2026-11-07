@@ -161,7 +161,7 @@ obfuscated public addresses are maintained in `content/authors/admin/_index.md`.
   who also have a Joint Lab role, and for external Joint Lab collaborators with
   `people_display_group`. The latter remain outside Main Lab `user_groups`.
 - The People/About page has no standalone Joint Lab block.
-- The Joint Lab page uses four columns on desktop, two columns at tablet/mobile
+- The Joint Lab page uses five columns on desktop, two columns at tablet/mobile
   widths, and one column below 480px. Smaller groups are centered using the
   count-specific classes in `layouts/partials/site_head.html`.
 - The People page is independent of the Joint Lab grid. Its member class in

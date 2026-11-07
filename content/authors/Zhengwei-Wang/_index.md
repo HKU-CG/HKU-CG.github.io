@@ -8,7 +8,7 @@ weight: 999011
 superuser: false
 role: Research Assistant
 joint_lab_role: JuniorRA
-joint_lab_order: 5
+joint_lab_order: 6
 joint_lab_identity: Undergraduate 2nd year, HKU
 joint_lab_intro: Embodied AI
 people_display_group: Junior Research Assistant

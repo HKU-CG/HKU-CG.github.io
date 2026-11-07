@@ -8,7 +8,7 @@ weight: 999010
 superuser: false
 role: Research Assistant
 joint_lab_role: JuniorRA
-joint_lab_order: 2
+joint_lab_order: 5
 joint_lab_identity: MSc Computer Science, HKU (2026-2027)
 joint_lab_intro: Deep Learning
 people_display_group: Junior Research Assistant
